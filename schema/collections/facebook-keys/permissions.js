@@ -1,0 +1,1 @@
+Roles.registerAction('collections.facebook_keys.requestKey', true);

@@ -1,0 +1,18 @@
+<template name="clientsFacebookKeysLink">
+  <div id="fb-root"></div>
+
+  
+  <div class="container">
+    <div class="center">
+      {{# with facebookKey }}
+        <br><br>
+        <h3>{{ facebookKey.data.name }}</h3>
+        <p>{{ facebookKey.data.about }}</p>
+        <a href="#" class="fb-login">Conectar con Facebook</a>
+
+      {{ else }}
+        <p>Cargando...</p> 
+      {{/ with }}
+    </div>
+  </div>
+</template>

@@ -1,0 +1,1 @@
+FacebookSlaves = new Mongo.Collection('facebook_slaves');
