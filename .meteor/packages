@@ -10,3 +10,6 @@ nicolaslopezj:fb-graph
 orionjs:core
 orionjs:materialize
 orionjs:lang-es
+momentjs:moment
+meteorhacks:cluster
+fongandrew:find-and-modify
