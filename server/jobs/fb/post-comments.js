@@ -12,7 +12,9 @@ Jobs['fb:post-comments'] = function(slave) {
     comment.created_time = moment.utc(comment.created_time).toDate()
     comment.targetId = slave.targetId
     try {
-      DataFBPostComments.insert(comment);
+      if (DataFBPostComments.find({ id: comment.id }).count() == 0) {
+        DataFBPostComments.insert(comment);
+      }
     } catch(e) {
       console.log(e);
       console.log(comment);

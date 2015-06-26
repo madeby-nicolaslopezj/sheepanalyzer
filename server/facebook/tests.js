@@ -1,5 +1,5 @@
 Meteor.methods({
   testFacebook: function () {
-    
+
   }
 });
