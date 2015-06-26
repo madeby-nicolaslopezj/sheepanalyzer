@@ -36,7 +36,8 @@ var twitterSchema = new SimpleSchema({
     type: [String]
   },
   indirectMentions: {
-    type: [indirectMentionSchema]
+    type: [indirectMentionSchema],
+    optional: true
   }
 })
 
