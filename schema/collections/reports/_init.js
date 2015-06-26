@@ -7,7 +7,9 @@ Reports = new orion.collection('reports', {
   },
   tabular: {
     columns: [
-      { data: 'targetName', title: 'Target' }
+      { data: 'targetName', title: 'Target' },
+      orion.attributeColumn('createdAt', 'createdAt', 'Fecha'),
+      { title: 'Acciones', tmpl: Meteor.isClient && Template.adminReportsIndexButton }
     ]
   }
 });

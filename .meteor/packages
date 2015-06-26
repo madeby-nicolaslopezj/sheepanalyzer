@@ -5,11 +5,13 @@
 # but you can also edit it by hand.
 
 meteor-platform
-materialize:materialize
+twbs:bootstrap
+fortawesome:fontawesome
 nicolaslopezj:fb-graph
 orionjs:core
-orionjs:materialize
+orionjs:bootstrap
 orionjs:lang-es
 momentjs:moment
 meteorhacks:cluster
 fongandrew:find-and-modify
+less

@@ -4,7 +4,7 @@ Slaves.attachSchema(new SimpleSchema({
   },
   type: {
     type: String,
-    allowedValues: ['fb:likes', 'fb:posts', 'fb:post-likes', 'fb:post-comments']
+    allowedValues: Jobs.types
   },
   data: {
     type: Object,
