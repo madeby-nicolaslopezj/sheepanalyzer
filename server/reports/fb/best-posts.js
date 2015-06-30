@@ -1,7 +1,7 @@
 ReportsItems['fb:best-posts'] = function(report) {
 
-  var fromDate = moment(report.createdAt).subtract(1, 'week').toDate();
-  var toDate = moment(report.createdAt).toDate();
+  var fromDate = moment(report.createdAt).endOf('day').subtract(1, 'week').toDate();
+  var toDate = moment(report.createdAt).endOf('day').toDate();
 
   var result = DataFBPostLikes.aggregate([
     {
@@ -27,6 +27,6 @@ ReportsItems['fb:best-posts'] = function(report) {
   var posts = postIds.map(function(postId) {
     return FBGraph.get(postId);
   })
-  
+
   return { posts: posts };
 }
