@@ -14,7 +14,8 @@ Template['reportsData_fb:likes-history'].onRendered(function() {
   })
 
   var ctx = this.$("canvas").get(0).getContext("2d");
-  var chart = new Chart(ctx).Line(data);
-
-
+  var chart = new Chart(ctx).Line(data, {
+    scaleShowGridLines: false,
+    datasetFill : false,
+  });
 })
