@@ -1,3 +1,3 @@
-ReportsItems['fb:likes-history'] = function() {
-
+ReportsItems['fb:likes-history'] = function(report) {
+  return 'cacaquit';
 }

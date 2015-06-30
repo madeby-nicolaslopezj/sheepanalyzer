@@ -26,7 +26,18 @@ Reports.attachSchema(new SimpleSchema({
   data: {
     type: Object,
     blackbox: true,
-    optional: true
+    optional: true,
+    autoform: {
+      omit: true
+    }
+  },
+  comments: {
+    type: Object,
+    blackbox: true,
+    optional: true,
+    autoform: {
+      omit: true
+    }
   },
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')

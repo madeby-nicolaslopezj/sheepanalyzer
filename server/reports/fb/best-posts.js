@@ -1,3 +1,3 @@
-ReportsItems['fb:best-posts'] = function() {
-
+ReportsItems['fb:best-posts'] = function(report) {
+  return 'chupal'
 }

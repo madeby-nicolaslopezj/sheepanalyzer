@@ -1,0 +1,17 @@
+<template name="reportsComments">
+  {{# each comments }}
+    <div class="row">
+      <div class="col-sm-8">
+        {{ this }}
+      </div>
+    </div>
+  {{/ each }}
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="form-group">
+        <textarea class="new-comment-textarea form-control" placeholder="Escribe los comentarios..."></textarea>
+      </div>
+      <a href="#" class="new-comment-btn btn btn-default">Añadir comentario</a>
+    </div>
+  </div>
+</template>
