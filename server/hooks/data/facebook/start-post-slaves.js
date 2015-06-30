@@ -3,6 +3,10 @@
  */
 DataFBPosts.after.insert(function(userId, doc) {
 
+  if (moment(new Date(doc.created_time)).isBefore(moment().subtract(1, 'month'))) {
+    return;
+  }
+
   console.log('Creating fb:post-likes slave for [', doc.id, ']');
   var slave = {
     targetId: doc.targetId,
@@ -19,6 +23,10 @@ DataFBPosts.after.insert(function(userId, doc) {
  * Starts the fb:posts slave
  */
 DataFBPosts.after.insert(function(userId, doc) {
+
+  if (moment(new Date(doc.created_time)).isBefore(moment().subtract(1, 'month'))) {
+    return;
+  }
 
   console.log('Creating fb:post-comments slave for [', doc.id, ']');
   var slave = {
