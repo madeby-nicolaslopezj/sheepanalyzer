@@ -3,7 +3,7 @@ Template.reportsComments.onRendered(function() {
 
 Template.reportsComments.helpers({
   comments: function() {
-    return this.report.comments[this.item];
+    return this.report.comments && this.report.comments[this.item];
   }
 })
 

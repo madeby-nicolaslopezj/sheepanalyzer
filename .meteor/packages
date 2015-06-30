@@ -13,4 +13,5 @@ orionjs:lang-es
 momentjs:moment
 meteorhacks:cluster
 fongandrew:find-and-modify
+meteorhacks:aggregate
 less

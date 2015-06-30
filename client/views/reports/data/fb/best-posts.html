@@ -1,4 +1,8 @@
 <template name="reportsData_fb:best-posts">
-  <h3 class="report-title">Top Posts en Facebook</h3>
-  {{ this }}
+  {{# each posts }}
+    <div class="">
+      <div class="fb-post" data-href="{{ link }}"></div>
+    </div>
+    <br>
+  {{/ each }}
 </template>

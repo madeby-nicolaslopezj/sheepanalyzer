@@ -17,5 +17,19 @@ Template.reportsView.helpers({
     var type = String(this);
     var report = Reports.findOne(Router.current().params._id);
     return report && report.data && report.data[type];
+  },
+  getTitle: function() {
+    var type = String(this);
+    return ReportsItems.titles[type];
+  }
+})
+
+Template.reportsView.events({
+  'click .refresh-report-btn': function(event, template) {
+    var type = String(this);
+    var $unset = {};
+    $unset['data.' + type] = '';
+    Reports.update(Router.current().params._id, { $unset: $unset });
+    Meteor.call('collectReportData', Router.current().params._id, type);
   }
 })
