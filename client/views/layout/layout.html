@@ -1,10 +1,11 @@
 <template name="layout">
-  <div class="container">
-    <h3>Black Sheep</h3>
-  </div>
-  <div class="container">
-    <div class="">
-      {{> yield }}
-    </div>
-  </div>
+  <header>
+    {{> header }}
+  </header>
+  <main>
+    {{> yield }}
+  </main>
+  <footer class="page-footer">
+    {{> footer }}
+  </footer>
 </template>

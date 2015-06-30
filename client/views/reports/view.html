@@ -1,17 +1,20 @@
 <template name="reportsView">
-  {{# with report }}
-    <h3>{{ targetName }}</h3>
-    {{# each selectedReports }}
-      <div class="row">
-        <div class="col-sm-12">
-          {{> Template.dynamic template=getTemplate data=getData }}
-          {{> reportsComments report=report item=this }}
+  <div class="container">
+    {{# with report }}
+      <h3 class="center red-text text-lighten-2">{{ targetName }}</h3>
+      {{# each selectedReports }}
+        <div class="row">
+          <div class="col l8">
+            {{> Template.dynamic template=getTemplate data=getData }}
+          </div>
+          <div class="col l4">
+            {{> reportsComments report=report item=this }}
+          </div>
         </div>
-      </div>
-    {{/ each }}
-  {{ else }}
-    <p>
-      <b>Cargando...</b>
-    </p>
-  {{/ with }}
+        <div class="divider"></div><br>
+      {{/ each }}
+    {{ else }}
+      {{> loading }}
+    {{/ with }}
+  </div>
 </template>

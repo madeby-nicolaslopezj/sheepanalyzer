@@ -1,5 +1,4 @@
 Template.reportsComments.onRendered(function() {
-  console.log(this.data);
 })
 
 Template.reportsComments.helpers({

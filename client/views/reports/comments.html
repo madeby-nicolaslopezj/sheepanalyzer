@@ -1,17 +1,22 @@
 <template name="reportsComments">
-  {{# each comments }}
-    <div class="row">
-      <div class="col-sm-8">
+  <br>
+  <ul class="collection">
+    {{# each comments }}
+      <li class="collection-item">
         {{ this }}
-      </div>
-    </div>
-  {{/ each }}
-  <div class="row">
-    <div class="col-sm-8">
-      <div class="form-group">
-        <textarea class="new-comment-textarea form-control" placeholder="Escribe los comentarios..."></textarea>
-      </div>
-      <a href="#" class="new-comment-btn btn btn-default">Añadir comentario</a>
-    </div>
+      </li>
+    {{/ each }}
+  </ul>
+  <br>
+  <div class="input-field">
+    <textarea id="textarea1" class="materialize-textarea new-comment-textarea"></textarea>
+    <label for="textarea1">Comentario</label>
   </div>
+  <div class="">
+    <p>
+      <a href="#" class="new-comment-btn btn right"><i class="material-icons">add</i></a>
+      <span class="grey-text">Comentarios del analista</span>
+    </p>
+  </div>
+
 </template>
