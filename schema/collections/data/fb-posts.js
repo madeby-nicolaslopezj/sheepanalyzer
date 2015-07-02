@@ -42,5 +42,17 @@ DataFBPosts.attachSchema(new SimpleSchema({
   updated_time: {
     type: Date,
     optional: true
+  },
+  commentsCount: {
+    type: Number,
+    optional: true
+  },
+  likesCount: {
+    type: Number,
+    optional: true
+  },
+  sharesCount: {
+    type: Number,
+    optional: true
   }
 }))
