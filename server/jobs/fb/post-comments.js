@@ -23,5 +23,7 @@ Jobs['fb:post-comments'] = function(slave) {
 
   console.log(comments.length + ' comments found');
 
-  return moment().add(1, 'day').toDate();
+  if (moment(new Date(slave.createdAt)).isAfter(moment().subtract(1, 'month'))) {
+    return moment().add(1, 'day').toDate();
+  }
 }

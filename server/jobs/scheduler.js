@@ -15,7 +15,11 @@ Meteor.methods({
 
     try {
       var nextRun = Jobs[slave.type](slave);
-      Slaves.update(slave._id, { $set: { nextRun: nextRun, lastRun: new Date(), isRunning: false } });
+      if (nextRun) {
+        Slaves.update(slave._id, { $set: { nextRun: nextRun, lastRun: new Date(), isRunning: false } });
+      } else {
+        Slaves.remove(slave._id);
+      }
     } catch (e) {
       Slaves.update(slave._id, { $set: { nextRun: new Date(), isRunning: false } });
       Meteor._sleepForMs(5000);

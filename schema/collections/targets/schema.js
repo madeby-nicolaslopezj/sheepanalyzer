@@ -42,14 +42,6 @@ var twitterSchema = new SimpleSchema({
 })
 
 Targets.attachSchema(new SimpleSchema({
-  isCompetition: {
-    type: Boolean,
-    label: 'Es competencia'
-  },
-  analist: {
-    type: String,
-    label: 'Analista'
-  },
   name: {
     type: String,
     label: 'Nombre'
