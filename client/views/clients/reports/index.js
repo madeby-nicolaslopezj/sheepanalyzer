@@ -9,4 +9,4 @@ Template.clientsReportsIndex.helpers({
   client: function() {
     return Clients.findOne({ slug: Router.current().params.slug });
   }
-})
+});

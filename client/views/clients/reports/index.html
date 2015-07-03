@@ -2,8 +2,11 @@
   <div class="container">
     {{# if Template.subscriptionsReady }}
       {{# with client }}
+        <h3>{{ client.mainTarget.name }}</h3>
         <p>
-          <b>{{ slug }}</b>
+          {{# each client.competitors }}
+            {{ name }}
+          {{/ each }}
         </p>
       {{ else }}
         <p>

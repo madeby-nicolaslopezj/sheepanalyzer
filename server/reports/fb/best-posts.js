@@ -6,7 +6,7 @@ ReportsItems['fb:best-posts'] = function(report) {
   var result = DataFBPostLikes.aggregate([
     {
       $match: {
-        targetId: report.targetId,
+        targetId: report.mainTargetId,
         date: {
           $gte: fromDate,
           $lt: toDate

@@ -1,9 +1,14 @@
 Reports.attachSchema(new SimpleSchema({
-  targetId: {
+  clientId: {
     type: String,
-    label: 'Target'
+    index: 1
   },
-  competitors: {
+  mainTargetId: {
+    type: String,
+    label: 'Target',
+    index: 1
+  },
+  competitorsIds: {
     type: [String],
     label: 'Competencia',
     optional: true

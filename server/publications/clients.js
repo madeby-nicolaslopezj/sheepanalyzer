@@ -1,8 +1,20 @@
 /**
  * Subscribe to the data that the view needs
  */
-Meteor.publish('clientsReportsIndex', function(clientSlug) {
+Meteor.publishComposite('clientsReportsIndex', function(clientSlug) {
   check(clientSlug, String);
-  console.log(clientSlug);
-  return Clients.find({ slug: clientSlug });
-})
+  return {
+    find: function() {
+      return Clients.find({ slug: clientSlug });
+    },
+    children: [{
+      find: function(client) {
+        return Targets.find({ _id: client.mainTargetId });
+      }
+    }, {
+      find: function(client) {
+        return client.competitors();
+      }
+    }]
+  }
+});

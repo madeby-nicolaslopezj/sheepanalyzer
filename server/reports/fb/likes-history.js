@@ -1,6 +1,6 @@
 ReportsItems['fb:likes-history'] = function(report) {
   var likes = DataFBLikes.find({
-    targetId: report.targetId
+    targetId: report.mainTargetId
   }, {
     fields: {
       _id: 0,
