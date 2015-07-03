@@ -35,6 +35,7 @@ iron:location@1.0.9
 iron:middleware-stack@1.0.9
 iron:router@1.0.9
 iron:url@1.0.9
+jeremy:selectize@0.12.1_3
 jquery@1.11.3_2
 json@1.0.3
 launch-screen@1.0.2
@@ -74,6 +75,7 @@ orionjs:dictionary@1.1.0
 orionjs:lang-en@1.1.1
 orionjs:lang-es@1.1.2
 orionjs:materialize@1.1.7
+orionjs:relationships@1.1.2
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5

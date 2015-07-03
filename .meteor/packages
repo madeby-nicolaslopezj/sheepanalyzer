@@ -9,6 +9,7 @@ materialize:materialize
 nicolaslopezj:fb-graph
 orionjs:core
 orionjs:materialize
+orionjs:relationships
 orionjs:lang-es
 momentjs:moment
 meteorhacks:cluster
