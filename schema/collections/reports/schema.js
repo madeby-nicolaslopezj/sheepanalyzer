@@ -3,13 +3,6 @@ Reports.attachSchema(new SimpleSchema({
     type: String,
     label: 'Target'
   },
-  targetName: {
-    type: String,
-    optional: true,
-    autoform: {
-      omit: true
-    }
-  },
   competitors: {
     type: [String],
     label: 'Competencia',

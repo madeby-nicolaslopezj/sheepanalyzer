@@ -16,9 +16,10 @@ Clients.attachSchema(new SimpleSchema({
   dayToReports: {
     type: Number,
     label: 'Dia en que se generan los reportes',
-    allowedValues: [1, 2, 3, 4, 5, 6, 7],
+    allowedValues: [0, 1, 2, 3, 4, 5, 6, 7],
     autoform: {
       options: [
+          { label: 'Generar reportes manualmente', value: 0 },
           { label: 'Lunes', value: 1 },
           { label: 'Martes', value: 2 },
           { label: 'Miercoles', value: 3 },
