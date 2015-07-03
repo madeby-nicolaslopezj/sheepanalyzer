@@ -1,0 +1,17 @@
+<template name="clientsReportsIndex">
+  <div class="container">
+    {{# if Template.subscriptionsReady }}
+      {{# with client }}
+        <p>
+          <b>{{ slug }}</b>
+        </p>
+      {{ else }}
+        <p>
+          <b>No se encontró el cliente</b>
+        </p>
+      {{/ with }}
+    {{ else }}
+      {{> loading }}
+    {{/ if }}
+  </div>
+</template>
