@@ -11,7 +11,8 @@ Clients = new orion.collection('clients', {
   },
   tabular: {
     columns: [
-      orion.attributeColumn('hasOne', 'mainTargetId', 'Cliente')
+      orion.attributeColumn('hasOne', 'mainTargetId', 'Cliente'),
+      { data: 'slug', title: 'ID' }
     ]
   }
 });

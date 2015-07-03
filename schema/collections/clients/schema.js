@@ -1,4 +1,10 @@
 Clients.attachSchema(new SimpleSchema({
+  slug: {
+    type: String,
+    label: 'Identificador',
+    unique: true,
+    regEx: /^[a-z0-9A-Z_-]+$/
+  },
   mainTargetId: orion.attribute('hasOne', {
     label: 'Target Principal'
   }, {
