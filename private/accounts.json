@@ -1,1802 +1,1365 @@
 [
   {
-    "FIELD1":"",
-    "FIELD2":"Caja Los Andes",
-    "FIELD3":"@cajalosandes",
-    "FIELD4":"@cajalosandes",
-    "FIELD5":"",
-    "FIELD6":"caja de compensación los andes",
-    "FIELD7":"",
-    "FIELD8":"CajaLosAndesCL"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"caja los andes",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"cajalosandes",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"los andes caja",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"caja 18",
-    "FIELD3":"@caja18_,@micaja18",
-    "FIELD4":"@caja18_",
-    "FIELD5":"",
-    "FIELD6":"micaja18",
-    "FIELD7":"",
-    "FIELD8":"Caja18"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@micaja18",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Caja La Araucana",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"caja la araucana",
-    "FIELD7":"",
-    "FIELD8":"cajalaaraucana"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"caja de compensación la araucana",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"la araucana caja",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HARD ROCK HOTEL",
-    "FIELD3":"@hrhcancun",
-    "FIELD4":"@hrhcancun",
-    "FIELD5":"",
-    "FIELD6":"hard rock",
-    "FIELD7":"cancun, cancún",
-    "FIELD8":"HRHCancun"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hard rock hotel",
-    "FIELD7":"cancun, cancún",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hardrock",
-    "FIELD7":"cancun, cancún",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HARD ROCK HOTEL",
-    "FIELD3":"@hrhpuntacana",
-    "FIELD4":"@hrhpuntacana",
-    "FIELD5":"",
-    "FIELD6":"hard rock",
-    "FIELD7":"Punta Cana",
-    "FIELD8":"hardrockhotelpuntacana"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hard rock hotel",
-    "FIELD7":"Punta Cana",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hardrock",
-    "FIELD7":"Punta Cana",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HARD ROCK HOTEL",
-    "FIELD3":"@hrhrivieramaya",
-    "FIELD4":"@hrhrivieramaya",
-    "FIELD5":"",
-    "FIELD6":"hard rock",
-    "FIELD7":"rivieramaya, riviera maya",
-    "FIELD8":"hrhrivieramaya"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hard rock hotel",
-    "FIELD7":"rivieramaya, riviera maya",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hardrock",
-    "FIELD7":"rivieramaya, riviera maya",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HARD ROCK HOTEL",
-    "FIELD3":"@hrhVallarta",
-    "FIELD4":"@hrhVallarta",
-    "FIELD5":"",
-    "FIELD6":"hard rock",
-    "FIELD7":"Vallarta",
-    "FIELD8":"hardrockhotelvallarta"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hard rock hotel",
-    "FIELD7":"Vallarta",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"hardrock",
-    "FIELD7":"Vallarta",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HARD ROCK HOTEL",
-    "FIELD3":"@barcelohoteles,@meliahotelsint,@riuhoteles",
-    "FIELD4":"@barcelohoteles",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"barcelohotels"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@meliahotelsint",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"Melia.Hotels"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@riuhoteles",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"Riuhoteles"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"ALFA ROMEO",
-    "FIELD3":"@alfaromeocl",
-    "FIELD4":"@alfaromeocl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"AlfaRomeoChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"DODGE",
-    "FIELD3":"@chevroletcl",
-    "FIELD4":"@chevroletcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"ChevroletChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"DODGE",
-    "FIELD3":"@dodgechile",
-    "FIELD4":"@dodgechile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"DodgeChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Honda",
-    "FIELD3":"@honda_chile",
-    "FIELD4":"@honda_chile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"HondaAutomovilesChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Jeep",
-    "FIELD3":"@jeepchile",
-    "FIELD4":"@jeepchile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"JEEPChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Mazda",
-    "FIELD3":"@mazdachile",
-    "FIELD4":"@mazdachile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"MazdaChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Jumbo",
-    "FIELD3":"@JumboChile",
-    "FIELD4":"@JumboChile",
-    "FIELD5":"",
-    "FIELD6":"Jumbo",
-    "FIELD7":"Super",
-    "FIELD8":"jumbochile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"JumboChile",
-    "FIELD7":"Supermercado",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"Supermercados",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Lider",
-    "FIELD3":"@lidercl",
-    "FIELD4":"@lidercl",
-    "FIELD5":"",
-    "FIELD6":"lidercl",
-    "FIELD7":"",
-    "FIELD8":"lidercl"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Tottus",
-    "FIELD3":"@tottuschile",
-    "FIELD4":"@tottuschile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"tottuschile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"SISA",
-    "FIELD3":"@santiaisabelcl",
-    "FIELD4":"@santiaisabelcl",
-    "FIELD5":"",
-    "FIELD6":"Santa Isabel",
-    "FIELD7":"Super",
-    "FIELD8":"SantaIsabelChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"Supermercado",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"Supermercados",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Los Fiordos",
-    "FIELD3":"@losfiordos",
-    "FIELD4":"@losfiordos",
-    "FIELD5":"",
-    "FIELD6":"los fiordos",
-    "FIELD7":"",
-    "FIELD8":"LosFiordosCL"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"salmonera",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Dunkin Donuts",
-    "FIELD3":"@dunkindonutscl",
-    "FIELD4":"@dunkindonutscl",
-    "FIELD5":"",
-    "FIELD6":"dunkin donuts",
-    "FIELD7":"",
-    "FIELD8":"DunkinDonutsChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Mc Donalds",
-    "FIELD3":"@Mcdonalds.cl",
-    "FIELD4":"@Mcdonalds.cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"McDonaldsChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"copaairlines",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Samsung",
-    "FIELD3":"@samsungchile",
-    "FIELD4":"@samsungchile",
-    "FIELD5":"",
-    "FIELD6":"samsungchile",
-    "FIELD7":"",
-    "FIELD8":"SamsungChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"LG",
-    "FIELD3":"@mundolg",
-    "FIELD4":"@mundolg",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"MundoLG"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"LenovoChile",
-    "FIELD3":"@lenovochile",
-    "FIELD4":"@lenovochile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"LenovoCl"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"HPChile",
-    "FIELD3":"@hpchile",
-    "FIELD4":"@hpchile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"HPChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Motorola_cl",
-    "FIELD3":"@motorola_cl",
-    "FIELD4":"@motorola_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"MotorolaChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Nikon_chile",
-    "FIELD3":"@nikon_chile",
-    "FIELD4":"@nikon_chile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"NikonChileOficial"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Sony Chile",
-    "FIELD3":"@sonychile",
-    "FIELD4":"@sonychile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"SonyChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Huawei",
-    "FIELD3":"@huaweichile",
-    "FIELD4":"@huaweichile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"HuaweiDeviceChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"alcatel1touchcl",
-    "FIELD3":"@alcatel1touchcl",
-    "FIELD4":"@alcatel1touchcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"ALCATELONETOUCHchile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Motorola",
-    "FIELD3":"@motorola_cl",
-    "FIELD4":"@motorola_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"MotorolaChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Fiat",
-    "FIELD3":"@fiatcl",
-    "FIELD4":"@fiatcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/fiatchile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Chevrolet",
-    "FIELD3":"@chevroletcl",
-    "FIELD4":"@chevroletcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/ChevroletChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Toyota",
-    "FIELD3":"@toyotachile",
-    "FIELD4":"@toyotachile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/ToyotaChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Suzuki",
-    "FIELD3":"@suzukichile",
-    "FIELD4":"@suzukichile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/suzukichile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Kia",
-    "FIELD3":"@kia_chile",
-    "FIELD4":"@kia_chile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/KiaChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"FancyboxChile",
-    "FIELD3":"@fancyboxcl",
-    "FIELD4":"@fancyboxcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/FancyboxChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"FancyboxArg",
-    "FIELD3":"@fancyboxarg",
-    "FIELD4":"@fancyboxarg",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/fancyboxargentina"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"FancyboxColombia",
-    "FIELD3":"@fancyboxcol",
-    "FIELD4":"@fancyboxcol",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/FancyboxColombia"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"SODEXO",
-    "FIELD3":"@JunaebSodexo",
-    "FIELD4":"@JunaebSodexo",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/becajunaebsodexo"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"EDENRED",
-    "FIELD3":"@ticketjunaeb",
-    "FIELD4":"@ticketjunaeb",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"305031999540489"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Salcobrand",
-    "FIELD3":"@informatica_sb,@salcobrand",
-    "FIELD4":"@informatica_sb",
-    "FIELD5":"",
-    "FIELD6":"salcobrand",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/Salcobrand"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@salcobrand",
-    "FIELD5":"",
-    "FIELD6":"tbjsalcobrand",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"farmacia salcobrand",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" farmacias salcobrand",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" informatica_sb",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" salco brand",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" salcobran",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" salcobrand",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" salcobrand2",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" salcobrant",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Cruzverde",
-    "FIELD3":"@cruz_verde,@cruzverdeonline,@farmacruzverde",
-    "FIELD4":"@cruz_verde",
-    "FIELD5":"",
-    "FIELD6":" cruz verde",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/FarmaciasCruzVerdeOficial"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@cruzverdeonline",
-    "FIELD5":"",
-    "FIELD6":" cvcurico",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@farmacruzverde",
-    "FIELD5":"",
-    "FIELD6":" farmacia cruz verde",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"FarmaciaAhumada",
-    "FIELD3":"@farmaciaahumada",
-    "FIELD4":"@farmaciaahumada",
-    "FIELD5":"",
-    "FIELD6":" farmacia ahumada",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" farmaciaahumada",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" farmacias ahumada",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"DoctorSimi",
-    "FIELD3":"@drsimi_chile",
-    "FIELD4":"@drsimi_chile",
-    "FIELD5":"",
-    "FIELD6":" drsimi_chile",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"PreUnic",
-    "FIELD3":"@preunic_cl",
-    "FIELD4":"@preunic_cl",
-    "FIELD5":"",
-    "FIELD6":" pre unic",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/preunic"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" pre-unic",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" preunic",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Maicao",
-    "FIELD3":"@maicao_cl",
-    "FIELD4":"@maicao_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/TiendasMaicao"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Pirelli",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"Pirelli",
-    "FIELD7":"Autos, Numaticos, neumáticos",
-    "FIELD8":"https://www.facebook.com/PirelliExperienceChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Firestone",
-    "FIELD3":"@firestonecl",
-    "FIELD4":"@firestonecl",
-    "FIELD5":"",
-    "FIELD6":" firestone",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/FirestoneChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" firestone chile",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" firestonechile",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" firestonecl",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Automotriz León",
-    "FIELD3":"@automotrizleon",
-    "FIELD4":"@automotrizleon",
-    "FIELD5":"",
-    "FIELD6":" automotriz leon",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/automotrizleon"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" automotriz león",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" automotrizleon",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" automotrizleón",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Bridgestone",
-    "FIELD3":"@bridgestonecl",
-    "FIELD4":"@bridgestonecl",
-    "FIELD5":"",
-    "FIELD6":"bridgestone",
-    "FIELD7":"chile",
-    "FIELD8":"https://www.facebook.com/BridgestoneChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"bridgestone chile",
-    "FIELD7":"chile",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"bridgestonecl",
-    "FIELD7":"chile",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"firestone",
-    "FIELD7":"chile",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"firestone",
-    "FIELD7":"chile",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Garden Express",
-    "FIELD3":"@gardenexpresscl",
-    "FIELD4":"@gardenexpresscl",
-    "FIELD5":"",
-    "FIELD6":" garden express",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/www.gardenexpress.cl"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" gardenexpresscl",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Capital Grille",
-    "FIELD3":"@capitalgrillecl,@dnbordie",
-    "FIELD4":"@capitalgrillecl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/CapitalGrille"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@dnbordie",
-    "FIELD5":"",
-    "FIELD6":" capital grille",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":" capital grillé",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Sport Welt",
-    "FIELD3":"@mwsportwelt",
-    "FIELD4":"@mwsportwelt",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/MWSportWelt"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Shure",
-    "FIELD3":"@shureenespanol",
-    "FIELD4":"@shureenespanol",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/ShureChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Sennheiser",
-    "FIELD3":"@sennheiserlatam",
-    "FIELD4":"@sennheiserlatam",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/AudifonosSennheiserChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Audio Técnica",
-    "FIELD3":"@audiotechnicala",
-    "FIELD4":"@audiotechnicala",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/AudioTechnicaLatinoamerica"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Achs",
-    "FIELD3":"@prevencionachs",
-    "FIELD4":"@prevencionachs",
-    "FIELD5":"",
-    "FIELD6":"Achs",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/PrevencionACHS"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"Asociación chilena de seguridad",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"asociacion chilena de seguridad",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Hospital del Trabajador",
-    "FIELD3":"@hdeltrabajador",
-    "FIELD4":"@hdeltrabajador",
-    "FIELD5":"",
-    "FIELD6":"hdeltrabajador",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/HospitalDelTrabajadorACHS"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"Hosptal del trabajador",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Microsoft",
-    "FIELD3":"@microsoftchile,@msftchile",
-    "FIELD4":"@microsoftchile",
-    "FIELD5":"",
-    "FIELD6":"microsoft",
-    "FIELD7":"One Drive, azure, cloud, crm, dynamics, nube, office online, office356, windows",
-    "FIELD8":"https://www.facebook.com/MicrosoftCL"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@msftchile",
-    "FIELD5":"",
-    "FIELD6":"microsoftchile",
-    "FIELD7":"One Drive, azure, cloud, crm, dynamics, nube, office online, office356, windows",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"windows 10",
-    "FIELD7":"One Drive, azure, cloud, crm, dynamics, nube, office online, office356, windows",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Sinergystics",
-    "FIELD3":"@synergisticscl",
-    "FIELD4":"@synergisticscl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"dr_vvalverde",
-    "FIELD3":"@dr_vvalverde",
-    "FIELD4":"@dr_vvalverde",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"VTR",
-    "FIELD3":"@VTRChile,@VTRSoporte,@VTRProgramación",
-    "FIELD4":"@VTRChile",
-    "FIELD5":"",
-    "FIELD6":"VTR",
-    "FIELD7":"Chile",
-    "FIELD8":"https://www.facebook.com/VTRChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@VTRSoporte",
-    "FIELD5":"",
-    "FIELD6":"VTRSoporte",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@VTRProgramación",
-    "FIELD5":"",
-    "FIELD6":"VTRChile",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Entel",
-    "FIELD3":"@Entel,@entel_ayuda,@zonaentel",
-    "FIELD4":"@Entel",
-    "FIELD5":"",
-    "FIELD6":"Entel",
-    "FIELD7":"Chile",
-    "FIELD8":"https://www.facebook.com/entelSA"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@entel_ayuda",
-    "FIELD5":"",
-    "FIELD6":"Entel_ayuda",
-    "FIELD7":"Chile",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@zonaentel",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Direct TV",
-    "FIELD3":"@directvchile",
-    "FIELD4":"@directvchile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/directvla"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Claro",
-    "FIELD3":"@clarochile_cl",
-    "FIELD4":"@clarochile_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/clarochile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Movistar",
-    "FIELD3":"@movistarchile,@ayudamovistarcl",
-    "FIELD4":"@movistarchile",
-    "FIELD5":"",
-    "FIELD6":"movistarchile",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/MovistarChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@ayudamovistarcl",
-    "FIELD5":"",
-    "FIELD6":"ayudamovistarcl",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Netflix",
-    "FIELD3":"@netflixlat",
-    "FIELD4":"@netflixlat",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/669864236392300"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Nextel",
-    "FIELD3":"@nextel_ahora,@nextel_tu_mundo",
-    "FIELD4":"@nextel_ahora",
-    "FIELD5":"",
-    "FIELD6":"nextel ",
-    "FIELD7":"Chile",
-    "FIELD8":"https://www.facebook.com/NextelChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@nextel_tu_mundo",
-    "FIELD5":"",
-    "FIELD6":"nextel_ahora",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"nextel_tu_mundo",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Virgin Mobile",
-    "FIELD3":"@virginmobile_cl,@alovmcl",
-    "FIELD4":"@virginmobile_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/VirginMobileChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"@alovmcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"",
-    "FIELD3":"",
-    "FIELD4":"",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":""
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Good Year",
-    "FIELD3":"@Goodyearcl",
-    "FIELD4":"@Goodyearcl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/GoodyearCL"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Aeropostale",
-    "FIELD3":"@aeropostale_cl",
-    "FIELD4":"@aeropostale_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/AeropostaleChile"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Americanino",
-    "FIELD3":"@americanino_cl",
-    "FIELD4":"@americanino_cl",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/Americaninocl"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Forever 21",
-    "FIELD3":"@forever21stgo",
-    "FIELD4":"@forever21stgo",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/thetieclubstores"
-  },
-  {
-    "FIELD1":"",
-    "FIELD2":"Foster",
-    "FIELD3":"@fosterchile",
-    "FIELD4":"@fosterchile",
-    "FIELD5":"",
-    "FIELD6":"",
-    "FIELD7":"",
-    "FIELD8":"https://www.facebook.com/foster.cl"
+    "id": "CajaLosAndesCL",
+    "name": "Caja Los Andes",
+    "facebook": {
+      "objectId": "CajaLosAndesCL"
+    },
+    "twitter": {
+      "directMentions": [
+        "cajalosandes"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "caja de compensaciÃ³n los andes"
+        },
+        {
+          "mention": "caja los andes"
+        },
+        {
+          "mention": "cajalosandes"
+        },
+        {
+          "mention": "los andes caja"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Caja18",
+    "name": "caja 18",
+    "facebook": {
+      "objectId": "Caja18"
+    },
+    "twitter": {
+      "directMentions": [
+        "caja18_",
+        "micaja18"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "micaja18"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cajalaaraucana",
+    "name": "Caja La Araucana",
+    "facebook": {
+      "objectId": "cajalaaraucana"
+    },
+    "twitter": {
+      "directMentions": [],
+      "indirectMentions": [
+        {
+          "mention": "caja la araucana"
+        },
+        {
+          "mention": "caja de compensaciÃ³n la araucana"
+        },
+        {
+          "mention": "la araucana caja"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HRHCancun",
+    "name": "HARD ROCK HOTEL",
+    "facebook": {
+      "objectId": "HRHCancun"
+    },
+    "twitter": {
+      "directMentions": [
+        "hrhcancun"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "hard rock",
+          "containingAlso": [
+            "cancun",
+            "cancÃºn"
+          ]
+        },
+        {
+          "mention": "hard rock hotel",
+          "containingAlso": [
+            "cancun",
+            "cancÃºn"
+          ]
+        },
+        {
+          "mention": "hardrock",
+          "containingAlso": [
+            "cancun",
+            "cancÃºn"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hardrockhotelpuntacana",
+    "name": "HARD ROCK HOTEL",
+    "facebook": {
+      "objectId": "hardrockhotelpuntacana"
+    },
+    "twitter": {
+      "directMentions": [
+        "hrhpuntacana"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "hard rock",
+          "containingAlso": [
+            "Punta Cana"
+          ]
+        },
+        {
+          "mention": "hard rock hotel",
+          "containingAlso": [
+            "Punta Cana"
+          ]
+        },
+        {
+          "mention": "hardrock",
+          "containingAlso": [
+            "Punta Cana"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hrhrivieramaya",
+    "name": "HARD ROCK HOTEL",
+    "facebook": {
+      "objectId": "hrhrivieramaya"
+    },
+    "twitter": {
+      "directMentions": [
+        "hrhrivieramaya"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "hard rock",
+          "containingAlso": [
+            "rivieramaya",
+            "riviera maya"
+          ]
+        },
+        {
+          "mention": "hard rock hotel",
+          "containingAlso": [
+            "rivieramaya",
+            "riviera maya"
+          ]
+        },
+        {
+          "mention": "hardrock",
+          "containingAlso": [
+            "rivieramaya",
+            "riviera maya"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "hardrockhotelvallarta",
+    "name": "HARD ROCK HOTEL",
+    "facebook": {
+      "objectId": "hardrockhotelvallarta"
+    },
+    "twitter": {
+      "directMentions": [
+        "hrhVallarta"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "hard rock",
+          "containingAlso": [
+            "Vallarta"
+          ]
+        },
+        {
+          "mention": "hard rock hotel",
+          "containingAlso": [
+            "Vallarta"
+          ]
+        },
+        {
+          "mention": "hardrock",
+          "containingAlso": [
+            "Vallarta"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "barcelohotels",
+    "name": "HARD ROCK HOTEL",
+    "facebook": {
+      "objectId": "barcelohotels"
+    },
+    "twitter": {
+      "directMentions": [
+        "barcelohoteles"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "Melia.Hotels",
+    "name": "Melia Hotels",
+    "facebook": {
+      "objectId": "Melia.Hotels"
+    },
+    "twitter": {
+      "directMentions": [
+        "meliahotelsint"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "Riuhoteles",
+    "name": "Riuhoteles",
+    "facebook": {
+      "objectId": "Riuhoteles"
+    },
+    "twitter": {
+      "directMentions": [
+        "riuhoteles"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "AlfaRomeoChile",
+    "name": "ALFA ROMEO",
+    "facebook": {
+      "objectId": "AlfaRomeoChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "alfaromeocl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "ChevroletChile",
+    "name": "DODGE",
+    "facebook": {
+      "objectId": "ChevroletChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "chevroletcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "DodgeChile",
+    "name": "DODGE",
+    "facebook": {
+      "objectId": "DodgeChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "dodgechile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "HondaAutomovilesChile",
+    "name": "Honda",
+    "facebook": {
+      "objectId": "HondaAutomovilesChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "honda_chile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "JEEPChile",
+    "name": "Jeep",
+    "facebook": {
+      "objectId": "JEEPChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "jeepchile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "MazdaChile",
+    "name": "Mazda",
+    "facebook": {
+      "objectId": "MazdaChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "mazdachile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "jumbochile",
+    "name": "Jumbo",
+    "facebook": {
+      "objectId": "jumbochile"
+    },
+    "twitter": {
+      "directMentions": [
+        "JumboChile"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "Jumbo",
+          "containingAlso": [
+            "Super"
+          ]
+        },
+        {
+          "mention": "JumboChile",
+          "containingAlso": [
+            "Supermercado"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "lidercl",
+    "name": "Lider",
+    "facebook": {
+      "objectId": "lidercl"
+    },
+    "twitter": {
+      "directMentions": [
+        "lidercl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "lidercl"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tottuschile",
+    "name": "Tottus",
+    "facebook": {
+      "objectId": "tottuschile"
+    },
+    "twitter": {
+      "directMentions": [
+        "tottuschile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "SantaIsabelChile",
+    "name": "SISA",
+    "facebook": {
+      "objectId": "SantaIsabelChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "santiaisabelcl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "Santa Isabel",
+          "containingAlso": [
+            "Super"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "LosFiordosCL",
+    "name": "Los Fiordos",
+    "facebook": {
+      "objectId": "LosFiordosCL"
+    },
+    "twitter": {
+      "directMentions": [
+        "losfiordos"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "los fiordos"
+        },
+        {
+          "mention": "salmonera"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DunkinDonutsChile",
+    "name": "Dunkin Donuts",
+    "facebook": {
+      "objectId": "DunkinDonutsChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "dunkindonutscl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "dunkin donuts"
+        }
+      ]
+    }
+  },
+  {
+    "id": "McDonaldsChile",
+    "name": "Mc Donalds",
+    "facebook": {
+      "objectId": "McDonaldsChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "Mcdonalds.cl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "copaairlines"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SamsungChile",
+    "name": "Samsung",
+    "facebook": {
+      "objectId": "SamsungChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "samsungchile"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "samsungchile"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MundoLG",
+    "name": "LG",
+    "facebook": {
+      "objectId": "MundoLG"
+    },
+    "twitter": {
+      "directMentions": [
+        "mundolg"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "LenovoCl",
+    "name": "LenovoChile",
+    "facebook": {
+      "objectId": "LenovoCl"
+    },
+    "twitter": {
+      "directMentions": [
+        "lenovochile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "HPChile",
+    "name": "HPChile",
+    "facebook": {
+      "objectId": "HPChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "hpchile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "MotorolaChile",
+    "name": "Motorola_cl",
+    "facebook": {
+      "objectId": "MotorolaChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "motorola_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "NikonChileOficial",
+    "name": "Nikon_chile",
+    "facebook": {
+      "objectId": "NikonChileOficial"
+    },
+    "twitter": {
+      "directMentions": [
+        "nikon_chile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "SonyChile",
+    "name": "Sony Chile",
+    "facebook": {
+      "objectId": "SonyChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "sonychile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "HuaweiDeviceChile",
+    "name": "Huawei",
+    "facebook": {
+      "objectId": "HuaweiDeviceChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "huaweichile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "ALCATELONETOUCHchile",
+    "name": "alcatel1touchcl",
+    "facebook": {
+      "objectId": "ALCATELONETOUCHchile"
+    },
+    "twitter": {
+      "directMentions": [
+        "alcatel1touchcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "MotorolaChile",
+    "name": "Motorola",
+    "facebook": {
+      "objectId": "MotorolaChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "motorola_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "fiatchile",
+    "name": "Fiat",
+    "facebook": {
+      "objectId": "fiatchile"
+    },
+    "twitter": {
+      "directMentions": [
+        "fiatcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "ChevroletChile",
+    "name": "Chevrolet",
+    "facebook": {
+      "objectId": "ChevroletChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "chevroletcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "ToyotaChile",
+    "name": "Toyota",
+    "facebook": {
+      "objectId": "ToyotaChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "toyotachile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "suzukichile",
+    "name": "Suzuki",
+    "facebook": {
+      "objectId": "suzukichile"
+    },
+    "twitter": {
+      "directMentions": [
+        "suzukichile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "KiaChile",
+    "name": "Kia",
+    "facebook": {
+      "objectId": "KiaChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "kia_chile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "FancyboxChile",
+    "name": "FancyboxChile",
+    "facebook": {
+      "objectId": "FancyboxChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "fancyboxcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "fancyboxargentina",
+    "name": "FancyboxArg",
+    "facebook": {
+      "objectId": "fancyboxargentina"
+    },
+    "twitter": {
+      "directMentions": [
+        "fancyboxarg"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "FancyboxColombia",
+    "name": "FancyboxColombia",
+    "facebook": {
+      "objectId": "FancyboxColombia"
+    },
+    "twitter": {
+      "directMentions": [
+        "fancyboxcol"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "becajunaebsodexo",
+    "name": "SODEXO",
+    "facebook": {
+      "objectId": "becajunaebsodexo"
+    },
+    "twitter": {
+      "directMentions": [
+        "JunaebSodexo"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "305031999540489",
+    "name": "EDENRED",
+    "facebook": {
+      "objectId": "305031999540489"
+    },
+    "twitter": {
+      "directMentions": [
+        "ticketjunaeb"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "Salcobrand",
+    "name": "Salcobrand",
+    "facebook": {
+      "objectId": "Salcobrand"
+    },
+    "twitter": {
+      "directMentions": [
+        "informatica_sb",
+        "salcobrand"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "salcobrand"
+        },
+        {
+          "mention": "tbjsalcobrand"
+        },
+        {
+          "mention": "farmacia salcobrand"
+        },
+        {
+          "mention": "farmacias salcobrand"
+        },
+        {
+          "mention": "informatica_sb"
+        },
+        {
+          "mention": "salco brand"
+        },
+        {
+          "mention": "salcobran"
+        },
+        {
+          "mention": "salcobrand"
+        },
+        {
+          "mention": "salcobrand2"
+        },
+        {
+          "mention": "salcobrant"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FarmaciasCruzVerdeOficial",
+    "name": "Cruzverde",
+    "facebook": {
+      "objectId": "FarmaciasCruzVerdeOficial"
+    },
+    "twitter": {
+      "directMentions": [
+        "cruz_verde",
+        "cruzverdeonline",
+        "farmacruzverde",
+        "farmaciaahumada",
+        "drsimi_chile"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "cruz verde"
+        },
+        {
+          "mention": "cvcurico"
+        },
+        {
+          "mention": "farmacia cruz verde"
+        },
+        {
+          "mention": "farmacia ahumada"
+        },
+        {
+          "mention": "farmaciaahumada"
+        },
+        {
+          "mention": "farmacias ahumada"
+        },
+        {
+          "mention": "drsimi_chile"
+        }
+      ]
+    }
+  },
+  {
+    "id": "preunic",
+    "name": "PreUnic",
+    "facebook": {
+      "objectId": "preunic"
+    },
+    "twitter": {
+      "directMentions": [
+        "preunic_cl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "pre unic"
+        },
+        {
+          "mention": "pre-unic"
+        },
+        {
+          "mention": "preunic"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TiendasMaicao",
+    "name": "Maicao",
+    "facebook": {
+      "objectId": "TiendasMaicao"
+    },
+    "twitter": {
+      "directMentions": [
+        "maicao_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "PirelliExperienceChile",
+    "name": "Pirelli",
+    "facebook": {
+      "objectId": "PirelliExperienceChile"
+    },
+    "twitter": {
+      "directMentions": [],
+      "indirectMentions": [
+        {
+          "mention": "Pirelli",
+          "containingAlso": [
+            "Autos",
+            "Numaticos",
+            "neumÃ¡ticos"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "FirestoneChile",
+    "name": "Firestone",
+    "facebook": {
+      "objectId": "FirestoneChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "firestonecl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "firestone"
+        },
+        {
+          "mention": "firestone chile"
+        },
+        {
+          "mention": "firestonechile"
+        },
+        {
+          "mention": "firestonecl"
+        }
+      ]
+    }
+  },
+  {
+    "id": "automotrizleon",
+    "name": "Automotriz LeÃ³n",
+    "facebook": {
+      "objectId": "automotrizleon"
+    },
+    "twitter": {
+      "directMentions": [
+        "automotrizleon"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "automotriz leon"
+        },
+        {
+          "mention": "automotriz leÃ³n"
+        },
+        {
+          "mention": "automotrizleon"
+        },
+        {
+          "mention": "automotrizleÃ³n"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BridgestoneChile",
+    "name": "Bridgestone",
+    "facebook": {
+      "objectId": "BridgestoneChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "bridgestonecl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "bridgestone",
+          "containingAlso": [
+            "chile"
+          ]
+        },
+        {
+          "mention": "bridgestone chile",
+          "containingAlso": [
+            "chile"
+          ]
+        },
+        {
+          "mention": "bridgestonecl",
+          "containingAlso": [
+            "chile"
+          ]
+        },
+        {
+          "mention": "firestone",
+          "containingAlso": [
+            "chile"
+          ]
+        },
+        {
+          "mention": "firestone",
+          "containingAlso": [
+            "chile"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "www.gardenexpress.cl",
+    "name": "Garden Express",
+    "facebook": {
+      "objectId": "www.gardenexpress.cl"
+    },
+    "twitter": {
+      "directMentions": [
+        "gardenexpresscl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "garden express"
+        },
+        {
+          "mention": "gardenexpresscl"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CapitalGrille",
+    "name": "Capital Grille",
+    "facebook": {
+      "objectId": "CapitalGrille"
+    },
+    "twitter": {
+      "directMentions": [
+        "capitalgrillecl",
+        "dnbordie"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "capital grille"
+        },
+        {
+          "mention": "capital grillÃ©"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MWSportWelt",
+    "name": "Sport Welt",
+    "facebook": {
+      "objectId": "MWSportWelt"
+    },
+    "twitter": {
+      "directMentions": [
+        "mwsportwelt"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "ShureChile",
+    "name": "Shure",
+    "facebook": {
+      "objectId": "ShureChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "shureenespanol"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "AudifonosSennheiserChile",
+    "name": "Sennheiser",
+    "facebook": {
+      "objectId": "AudifonosSennheiserChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "sennheiserlatam"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "AudioTechnicaLatinoamerica",
+    "name": "Audio TÃ©cnica",
+    "facebook": {
+      "objectId": "AudioTechnicaLatinoamerica"
+    },
+    "twitter": {
+      "directMentions": [
+        "audiotechnicala"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "PrevencionACHS",
+    "name": "Achs",
+    "facebook": {
+      "objectId": "PrevencionACHS"
+    },
+    "twitter": {
+      "directMentions": [
+        "prevencionachs"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "Achs"
+        },
+        {
+          "mention": "AsociaciÃ³n chilena de seguridad"
+        },
+        {
+          "mention": "asociacion chilena de seguridad"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HospitalDelTrabajadorACHS",
+    "name": "Hospital del Trabajador",
+    "facebook": {
+      "objectId": "HospitalDelTrabajadorACHS"
+    },
+    "twitter": {
+      "directMentions": [
+        "hdeltrabajador"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "hdeltrabajador"
+        },
+        {
+          "mention": "Hosptal del trabajador"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MicrosoftCL",
+    "name": "Microsoft",
+    "facebook": {
+      "objectId": "MicrosoftCL"
+    },
+    "twitter": {
+      "directMentions": [
+        "microsoftchile",
+        "msftchile",
+        "synergisticscl",
+        "dr_vvalverde"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "microsoft",
+          "containingAlso": [
+            "One Drive",
+            "azure",
+            "cloud",
+            "crm",
+            "dynamics",
+            "nube",
+            "office online",
+            "office356",
+            "windows"
+          ]
+        },
+        {
+          "mention": "microsoftchile",
+          "containingAlso": [
+            "One Drive",
+            "azure",
+            "cloud",
+            "crm",
+            "dynamics",
+            "nube",
+            "office online",
+            "office356",
+            "windows"
+          ]
+        },
+        {
+          "mention": "windows 10",
+          "containingAlso": [
+            "One Drive",
+            "azure",
+            "cloud",
+            "crm",
+            "dynamics",
+            "nube",
+            "office online",
+            "office356",
+            "windows"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "VTRChile",
+    "name": "VTR",
+    "facebook": {
+      "objectId": "VTRChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "VTRChile",
+        "VTRSoporte",
+        "VTRProgramaciÃ³n"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "VTR",
+          "containingAlso": [
+            "Chile"
+          ]
+        },
+        {
+          "mention": "VTRSoporte"
+        },
+        {
+          "mention": "VTRChile"
+        }
+      ]
+    }
+  },
+  {
+    "id": "entelSA",
+    "name": "Entel",
+    "facebook": {
+      "objectId": "entelSA"
+    },
+    "twitter": {
+      "directMentions": [
+        "Entel",
+        "entel_ayuda",
+        "zonaentel"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "Entel",
+          "containingAlso": [
+            "Chile"
+          ]
+        },
+        {
+          "mention": "Entel_ayuda",
+          "containingAlso": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "directvla",
+    "name": "Direct TV",
+    "facebook": {
+      "objectId": "directvla"
+    },
+    "twitter": {
+      "directMentions": [
+        "directvchile"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "clarochile",
+    "name": "Claro",
+    "facebook": {
+      "objectId": "clarochile"
+    },
+    "twitter": {
+      "directMentions": [
+        "clarochile_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "MovistarChile",
+    "name": "Movistar",
+    "facebook": {
+      "objectId": "MovistarChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "movistarchile",
+        "ayudamovistarcl"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "movistarchile"
+        },
+        {
+          "mention": "ayudamovistarcl"
+        }
+      ]
+    }
+  },
+  {
+    "id": "669864236392300",
+    "name": "Netflix",
+    "facebook": {
+      "objectId": "669864236392300"
+    },
+    "twitter": {
+      "directMentions": [
+        "netflixlat"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "NextelChile",
+    "name": "Nextel",
+    "facebook": {
+      "objectId": "NextelChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "nextel_ahora",
+        "nextel_tu_mundo"
+      ],
+      "indirectMentions": [
+        {
+          "mention": "nextel",
+          "containingAlso": [
+            "Chile"
+          ]
+        },
+        {
+          "mention": "nextel_ahora"
+        },
+        {
+          "mention": "nextel_tu_mundo"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VirginMobileChile",
+    "name": "Virgin Mobile",
+    "facebook": {
+      "objectId": "VirginMobileChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "virginmobile_cl",
+        "alovmcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "GoodyearCL",
+    "name": "Good Year",
+    "facebook": {
+      "objectId": "GoodyearCL"
+    },
+    "twitter": {
+      "directMentions": [
+        "Goodyearcl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "AeropostaleChile",
+    "name": "Aeropostale",
+    "facebook": {
+      "objectId": "AeropostaleChile"
+    },
+    "twitter": {
+      "directMentions": [
+        "aeropostale_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "Americaninocl",
+    "name": "Americanino",
+    "facebook": {
+      "objectId": "Americaninocl"
+    },
+    "twitter": {
+      "directMentions": [
+        "americanino_cl"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "thetieclubstores",
+    "name": "Forever 21",
+    "facebook": {
+      "objectId": "thetieclubstores"
+    },
+    "twitter": {
+      "directMentions": [
+        "forever21stgo"
+      ],
+      "indirectMentions": []
+    }
+  },
+  {
+    "id": "foster.cl",
+    "name": "Foster",
+    "facebook": {
+      "objectId": "foster.cl"
+    },
+    "twitter": {
+      "directMentions": [
+        "fosterchile"
+      ],
+      "indirectMentions": []
+    }
   }
 ]

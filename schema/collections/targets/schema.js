@@ -1,11 +1,13 @@
 var facebookSchema = new SimpleSchema({
   objectId: {
     type: String,
-    label: 'ID'
+    label: 'ID',
+    unique: true
   },
   id: {
     type: String,
     optional: true,
+    unique: true,
     autoform: {
       omit: true
     }
