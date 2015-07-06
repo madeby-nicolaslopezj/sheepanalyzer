@@ -1,7 +1,13 @@
 <template name="reportsData_fb:likes-history">
   {{# each charts }}
+    {{# with targetWithId targetId }}
+      <p>
+        <b>{{ name }}</b>
+      </p>
+    {{/ with }}
     <div class="row">
       <canvas id="likes-chart-{{ targetId }}" class="col s12"></canvas>
     </div>
+    <br>
   {{/ each }}
 </template>
