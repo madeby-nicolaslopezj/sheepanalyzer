@@ -3,7 +3,7 @@ Meteor.methods({
     var slave = Slaves.findAndModify({
       query: { nextRun: { $lt: new Date() }, isRunning: false },
       update: { $set: { isRunning: true } },
-      sort: { nextRun: -1 },
+      sort: { nextRun: 1 },
       new: true
     });
 
@@ -37,7 +37,7 @@ Meteor.startup(function () {
       } catch(e) {
         console.log('Error running job: ', e);
       }
-      Meteor._sleepForMs(200 + _.random(300));
+      Meteor._sleepForMs(100 + _.random(300));
     }
   })
 });

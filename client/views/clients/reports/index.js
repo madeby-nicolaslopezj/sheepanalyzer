@@ -1,12 +1,10 @@
-Template.clientsReportsIndex.onCreated(function() {
+Template.clientsReportsIndex.onCreated(function() {
   var self = this;
-  self.autorun(function() {
-    self.subscribe('clientsReportsIndex', Router.current().params.slug);
+  self.autorun(function () {
+    var dataContext = Template.currentData();
+    self.subscribe('reportsByClient', dataContext._id);
   });
 });
 
-Template.clientsReportsIndex.helpers({
-  client: function() {
-    return Clients.findOne({ slug: Router.current().params.slug });
-  }
-});
+Template.clientsReportsIndex.onRendered(function() {
+})

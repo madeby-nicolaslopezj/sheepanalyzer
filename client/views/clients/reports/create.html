@@ -1,0 +1,22 @@
+<template name="clientsReportsCreate">
+
+  <h5>Generar reporte</h5>
+
+  <p>
+    Elegir datos
+  </p>
+
+  {{# each types }}
+    <p>
+      <input type="checkbox" id="type-{{ this }}" value="{{ this }}" />
+      <label for="type-{{ this }}">{{ label }}</label>
+    </p>
+  {{/ each }}
+
+  <br>
+  <p>
+    <a href="{{ pathFor 'clients.reports.index' }}" class="btn red">Cancelar</a>
+    <a href="#" class="btn blue btn-create">Crear</a>
+  </p>
+
+</template>

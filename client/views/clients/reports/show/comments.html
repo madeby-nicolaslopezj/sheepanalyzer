@@ -1,0 +1,22 @@
+<template name="clientsReportsShowComments">
+  {{# if comments }}
+    <ul class="collection">
+      {{# each comments }}
+        <li class="collection-item delete-comment-btn pointer">
+          {{ this }}
+        </li>
+      {{/ each }}
+    </ul>
+    <br>
+  {{/ if }}
+  <div class="input-field">
+    <input type="text" id="comment-input" class="new-comment-input">
+    <label for="comment-input">Comentario</label>
+  </div>
+  <div class="">
+    <p>
+      <a href="#" class="new-comment-btn btn right"><i class="material-icons">comment</i></a>
+    </p>
+  </div>
+
+</template>

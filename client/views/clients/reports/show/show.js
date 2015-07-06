@@ -1,11 +1,11 @@
-Template.reportsView.onCreated(function() {
+Template.clientsReportsShow.onCreated(function() {
   var self = this;
   self.autorun(function() {
     self.subscribe('reportsView', Router.current().params._id);
   });
 });
 
-Template.reportsView.helpers({
+Template.clientsReportsShow.helpers({
   report: function() {
     return Reports.findOne(Router.current().params._id);
   },
@@ -24,7 +24,7 @@ Template.reportsView.helpers({
   }
 })
 
-Template.reportsView.events({
+Template.clientsReportsShow.events({
   'click .refresh-report-btn': function(event, template) {
     var type = String(this);
     var $unset = {};

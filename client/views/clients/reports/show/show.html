@@ -1,0 +1,32 @@
+<template name="clientsReportsShow">
+  {{# with report }}
+    <h3 class="center red-text text-lighten-2">{{ targetName }}</h3>
+    {{# each selectedReports }}
+      <br>
+      <div class="">
+        <h5 class="report-title">{{ getTitle }}</h5>
+        <br>
+        <div class="row">
+          <div class="col l8">
+            {{# if getData }}
+              {{> Template.dynamic template=getTemplate data=getData }}
+            {{ else }}
+              <br><br>
+              {{> loading }}
+            {{/ if }}
+          </div>
+          <div class="col l4">
+            {{> clientsReportsShowComments report=report item=this }}
+          </div>
+        </div>
+      </div>
+      <p>
+        <a href="#" class="btn refresh-report-btn"><i class="material-icons">refresh</i></a>
+      </p>
+      <div class="divider"></div>
+      <br>
+    {{/ each }}
+  {{ else }}
+    {{> loading }}
+  {{/ with }}
+</template>

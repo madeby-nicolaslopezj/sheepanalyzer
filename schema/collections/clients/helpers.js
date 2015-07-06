@@ -6,6 +6,6 @@ Clients.helpers({
     return Targets.find({ _id: { $in: this.competitorsIds } });
   },
   reports: function() {
-    return Reports.find({ clientId: this._id });
+    return Reports.find({ clientId: this._id }, { sort: { createdAt: -1 } });
   }
 })

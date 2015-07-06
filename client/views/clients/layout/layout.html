@@ -1,0 +1,38 @@
+<template name="clientsLayout">
+  <header>
+    {{> header }}
+  </header>
+  <main class="client">
+    {{# if Template.subscriptionsReady }}
+      {{# with client }}
+        <div class="container center">
+          <br>
+          <h4>
+            <a href="{{ pathFor 'clients.reports.index' }}" class="black-text">{{ mainTarget.name }}</a>
+          </h4>
+          <br>
+        </div>
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="http://stephaniejagiello.com/background1.jpg">
+          </div>
+        </div>
+        <br>
+
+        <div class="container">
+          {{> yield }}
+        </div>
+
+      {{ else }}
+        <p>
+          <b>No se encontró el cliente</b>
+        </p>
+      {{/ with }}
+    {{ else }}
+      {{> loading }}
+    {{/ if }}
+  </main>
+  <footer class="page-footer">
+    {{> footer }}
+  </footer>
+</template>

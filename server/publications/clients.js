@@ -1,7 +1,7 @@
 /**
- * Subscribe to the data that the view needs
+ * Subscribes to a client by its slug with it target
  */
-Meteor.publishComposite('clientsReportsIndex', function(clientSlug) {
+Meteor.publishComposite('clientBySlug', function(clientSlug) {
   check(clientSlug, String);
   return {
     find: function() {
