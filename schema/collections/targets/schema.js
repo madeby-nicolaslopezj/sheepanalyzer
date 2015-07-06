@@ -24,8 +24,8 @@ var indirectMentionSchema = new SimpleSchema({
     type: String,
     label: 'Mención'
   },
-  containingTo: {
-    type: String,
+  containingAlso: {
+    type: [String],
     label: 'Y que además contenga',
     optional: true
   }
