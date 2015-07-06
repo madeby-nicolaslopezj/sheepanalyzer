@@ -35,5 +35,9 @@ Slaves.attachSchema(new SimpleSchema({
     type: Date,
     optional: true
   },
+  startedAt: {
+    type: Date,
+    optional: true
+  },
   createdAt: orion.attribute('createdAt')
 }))
