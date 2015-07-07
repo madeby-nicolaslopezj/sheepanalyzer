@@ -15,7 +15,12 @@ Template.clientsReportsCreate.events({
   'click .btn-create': function(event, template) {
     var types = template.$('input[type="checkbox"]:checked').map(function() { return $(this).val(); } );
 
-    var reportId = Reports.insert({ selectedReports: _.toArray(types), clientId: this._id });
-    console.log(reportId);
+    Reports.insert({ selectedReports: _.toArray(types), clientId: this._id }, function(error, result) {
+      if (error) {
+        console.log(error);
+      } else {
+        Router.go('clients.reports.show', { _id: result, slug: Router.current().params.slug });
+      }
+    });
   }
 })
