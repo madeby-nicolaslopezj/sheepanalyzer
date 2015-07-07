@@ -1,5 +1,5 @@
-Jobs['fb:likes'] = function(slave) {
-  var objectId = slave.data.objectId;
+Jobs['fb:likes'] = function(job) {
+  var objectId = job.data.objectId;
 
   console.log('Fetching page [', objectId, '] likes')
 
@@ -7,7 +7,7 @@ Jobs['fb:likes'] = function(slave) {
 
   var likes = data.likes;
 
-  DataFBLikes.insert({ targetId: slave.targetId, likes: likes });
+  DataFBLikes.insert({ targetId: job.targetId, likes: likes });
 
   console.log('Has ' + likes + ' likes')
 

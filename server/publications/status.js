@@ -1,11 +1,11 @@
-Meteor.publish('runningSlaves', function() {
-  return Slaves.find({ isRunning: true });
+Meteor.publish('runningJobs', function() {
+  return Jobs.find({ isRunning: true });
 });
 
-Meteor.publish('pendingSlaves', function() {
-  Counts.publish(this, 'pendingSlaves', Slaves.find({ nextRun: { $lt: new Date() }, isRunning: false }));
+Meteor.publish('pendingJobs', function() {
+  Counts.publish(this, 'pendingJobs', Jobs.find({ nextRun: { $lt: new Date() }, isRunning: false }));
 });
 
-Meteor.publish('totalSlaves', function() {
-  Counts.publish(this, 'totalSlaves', Slaves.find());
+Meteor.publish('totalJobs', function() {
+  Counts.publish(this, 'totalJobs', Jobs.find());
 });

@@ -1,5 +1,5 @@
-Jobs['fb:post-comments'] = function(slave) {
-  var objectId = slave.data.objectId;
+Jobs['fb:post-comments'] = function(job) {
+  var objectId = job.data.objectId;
 
   console.log('Fetching [', objectId, '] comments')
 
@@ -10,7 +10,7 @@ Jobs['fb:post-comments'] = function(slave) {
 
   _.each(comments, function(comment){
     comment.created_time = moment.utc(comment.created_time).toDate()
-    comment.targetId = slave.targetId
+    comment.targetId = job.targetId
     try {
       if (DataFBPostComments.find({ id: comment.id }).count() == 0) {
         DataFBPostComments.insert(comment);
@@ -23,7 +23,7 @@ Jobs['fb:post-comments'] = function(slave) {
 
   console.log(comments.length + ' comments found');
 
-  if (moment(new Date(slave.createdAt)).isAfter(moment().subtract(1, 'month'))) {
+  if (moment(new Date(job.createdAt)).isAfter(moment().subtract(1, 'month'))) {
     // Each day at 15:00:00
     return moment().add(1, 'day').hour(15).minute(0).second(0).toDate();
   }

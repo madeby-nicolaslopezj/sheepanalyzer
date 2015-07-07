@@ -4,17 +4,17 @@ Meteor.setInterval(function() {
 }, 30);
 
 Template.adminStatus.onCreated(function() {
-  this.subscribe('runningSlaves');
-  this.subscribe('pendingSlaves');
-  this.subscribe('totalSlaves');
+  this.subscribe('runningJobs');
+  this.subscribe('pendingJobs');
+  this.subscribe('totalJobs');
 })
 
 Template.adminStatus.helpers({
-  runningSlaves: function() {
-    return Slaves.find({ isRunning: true }).fetch();
+  runningJobs: function() {
+    return Jobs.find({ isRunning: true }).fetch();
   },
   runningCount: function() {
-    return Slaves.find({ isRunning: true }).count();
+    return Jobs.find({ isRunning: true }).count();
   },
   timeago: function(date) {
     timeDep.depend();

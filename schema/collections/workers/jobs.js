@@ -1,10 +1,10 @@
-Slaves.attachSchema(new SimpleSchema({
+Jobs.attachSchema(new SimpleSchema({
   targetId: {
     type: String
   },
   type: {
     type: String,
-    allowedValues: Jobs.types
+    allowedValues: JobTypes
   },
   data: {
     type: Object,

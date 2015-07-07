@@ -4,17 +4,17 @@
   {{/ Layout }}
   {{# Layout template="orionMaterializeContentContainer" }}
     <p>
-      Pending Jobs: <b>{{ getPublishedCount 'pendingSlaves' }}</b>
+      Pending Jobs: <b>{{ getPublishedCount 'pendingJobs' }}</b>
     </p>
     <p>
-      Total Jobs: <b>{{ getPublishedCount 'totalSlaves' }}</b>
+      Total Jobs: <b>{{ getPublishedCount 'totalJobs' }}</b>
     </p>
-    {{# if runningSlaves }}
+    {{# if runningJobs }}
       <p>
         <b>Active jobs</b> ({{ runningCount }})
       </p>
       <ul class="collection">
-        {{# each runningSlaves }}
+        {{# each runningJobs }}
           <li class="collection-item">
             <span class="blue white-text" style="padding: 2px 6px; border-radius: 2px; min-width: 60px">{{ type }}</span>
             <span class="right red white-text" style="padding: 0px 6px; border-radius: 2px; min-width: 60px; text-align: center; font-size: 1rem;">{{ timeago startedAt }}</span>

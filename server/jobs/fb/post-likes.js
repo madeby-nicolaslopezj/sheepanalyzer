@@ -1,5 +1,5 @@
-Jobs['fb:post-likes'] = function(slave) {
-  var objectId = slave.data.objectId;
+Jobs['fb:post-likes'] = function(job) {
+  var objectId = job.data.objectId;
 
   console.log('Fetching [', objectId, '] likes')
 
@@ -10,12 +10,12 @@ Jobs['fb:post-likes'] = function(slave) {
 
   _.each(likes, function(like){
     var doc = {
-      targetId: slave.targetId,
+      targetId: job.targetId,
       userId: like.id,
       postId: objectId
     }
     try {
-      if (DataFBPostLikes.find({ targetId: slave.targetId, userId: like.id, postId: objectId }).count() == 0) {
+      if (DataFBPostLikes.find({ targetId: job.targetId, userId: like.id, postId: objectId }).count() == 0) {
         DataFBPostLikes.insert(doc);
       }
     } catch(e) {
@@ -26,7 +26,7 @@ Jobs['fb:post-likes'] = function(slave) {
 
   console.log(likes.length + ' likes found');
 
-  if (moment(new Date(slave.createdAt)).isAfter(moment().subtract(1, 'month'))) {
+  if (moment(new Date(job.createdAt)).isAfter(moment().subtract(1, 'month'))) {
     // Each day at 19:00:00
     return moment().add(1, 'day').hour(17).minute(0).second(0).toDate();
   }
