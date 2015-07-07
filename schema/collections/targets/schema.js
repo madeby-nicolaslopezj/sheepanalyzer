@@ -1,8 +1,15 @@
+SimpleSchema.messages({cantChangeFacebookId: 'No está permitido cambiar el ID de Facebook'});
+
 var facebookSchema = new SimpleSchema({
   objectId: {
     type: String,
     label: 'ID',
-    unique: true
+    unique: true,
+    custom: function() {
+      if (!this.isInsert) {
+        return 'cantChangeFacebookId';
+      }
+    }
   },
   id: {
     type: String,
@@ -36,11 +43,12 @@ var indirectMentionSchema = new SimpleSchema({
 var twitterSchema = new SimpleSchema({
   directMentions: {
     type: [String],
-    optional: true
+    optional: true,
+    label: 'Cuentas'
   },
   indirectMentions: {
     type: [indirectMentionSchema],
-    optional: true
+    optional: true,
   }
 })
 
@@ -49,6 +57,12 @@ Targets.attachSchema(new SimpleSchema({
     type: String,
     label: 'Nombre'
   },
+  inCharge: orion.attribute('user', {
+    optional: true,
+    label: 'Encargado'
+  }, {
+    publicationName: 'targets_user_attribute'
+  }),
   facebook: {
     type: facebookSchema,
     label: 'Facebook'

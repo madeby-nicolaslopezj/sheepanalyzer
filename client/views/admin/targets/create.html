@@ -1,0 +1,74 @@
+<template name="adminTargetsCreate">
+  {{# if collection.canShowCreate }}
+    {{# Layout template="orionMaterializeHeaderContainer" }}
+      Add a target
+    {{/ Layout }}
+    {{# Layout template="orionMaterializeContentContainer" }}
+      {{# autoForm collection=collection id="orionMaterializeCollectionsCreateForm" type="insert" buttonContent=false }}
+      <div class="row">
+        <div class="col s12 m4">
+          <p><b>Name</b></p>
+          <p>
+            El nombre del objetivo
+          </p>
+        </div>
+        <div class="col s12 m7 offset-m1">
+          {{> afQuickField name='name' }}
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col s12 m4">
+          <p><b>Encargado</b></p>
+          <p>
+            El encargado de este objetivo, tiene permisos para editar y agregarlo a cuentas
+          </p>
+        </div>
+        <div class="col s12 m7 offset-m1">
+          {{> afQuickField name='inCharge' }}
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col s12 m4">
+          <p><b>Facebook</b></p>
+          <p>
+            El ID de la pagina en facebook. <span class="red-text">No se puede cambiar</span>
+          </p>
+        </div>
+        <div class="col s12 m7 offset-m1">
+          {{> afQuickField name='facebook.objectId' }}
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col s12 m4">
+          <p><b>Cuentas Twitter</b></p>
+          <p>
+            Cuentas de twitter. No incluir @
+          </p>
+        </div>
+        <div class="col s12 m7 offset-m1">
+          {{> afQuickField name='twitter.directMentions' }}
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col s12 m4">
+          <p><b>Menciones de Twitter</b></p>
+          <p>
+            Palabras que se buscarán en todos los tweets
+          </p>
+        </div>
+        <div class="col s12 m7 offset-m1">
+          {{> afQuickField name='twitter.indirectMentions' }}
+        </div>
+      </div>
+      {{/ autoForm }}
+    {{/ Layout }}
+    {{# Layout template="orionMaterializeButtonsContainer" }}
+      <a href="{{ collection.indexPath }}" class="waves-effect waves-light btn">{{ i18n 'global.cancel' }}</a>
+      <a class="waves-effect waves-light btn light-blue accent-4 create-btn" href="#">{{ i18n 'global.create' }}</a>
+    {{/ Layout }}
+  {{/ if }}
+</template>
