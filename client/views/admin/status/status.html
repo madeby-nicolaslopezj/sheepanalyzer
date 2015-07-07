@@ -3,29 +3,30 @@
     Server Status
   {{/ Layout }}
   {{# Layout template="orionMaterializeContentContainer" }}
-    {{# if runningSlaves }}
-      <p>
-        <b>Active jobs</b>
-      </p>
-      <ul class="collection">
-        {{# each runningSlaves }}
-          <li class="collection-item">
-            <code>{{ type }}</code>
-            <span class="badge red white-text" style="border-radius: 2px; min-width: 60px">{{ timeago startedAt }}</span>
-          </li>
-        {{/ each }}
-      </ul>
-      <br>
-    {{ else }}
-      <p>
-        <b>0</b> active jobs.
-      </p>
-    {{/ if }}
     <p>
       Pending Jobs: <b>{{ getPublishedCount 'pendingSlaves' }}</b>
     </p>
     <p>
       Total Jobs: <b>{{ getPublishedCount 'totalSlaves' }}</b>
     </p>
+    {{# if runningSlaves }}
+      <p>
+        <b>Active jobs</b> ({{ runningCount }})
+      </p>
+      <ul class="collection">
+        {{# each runningSlaves }}
+          <li class="collection-item">
+            <span class="blue white-text" style="padding: 2px 6px; border-radius: 2px; min-width: 60px">{{ type }}</span>
+            <span class="right red white-text" style="padding: 0px 6px; border-radius: 2px; min-width: 60px; text-align: center; font-size: 1rem;">{{ timeago startedAt }}</span>
+            <pre class="grey lighten-4" style="margin-bottom: 0px; padding: 5px; border-radius: 2px;">{{ format data }}</pre>
+          </li>
+        {{/ each }}
+      </ul>
+      <br>
+    {{ else }}
+      <p>
+        <b>0</b> active jobs
+      </p>
+    {{/ if }}
   {{/ Layout }}
 </template>

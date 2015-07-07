@@ -1,5 +1,5 @@
 Meteor.methods({
-  scheduleJob: function () {
+  scheduleJob: function() {
     var slave = Slaves.findAndModify({
       query: { nextRun: { $lt: new Date() }, isRunning: false },
       update: { $set: { isRunning: true, startedAt: new Date() } },
@@ -24,11 +24,15 @@ Meteor.methods({
       Meteor._sleepForMs(5000);
       throw e;
     }
+  },
+  refreshSlaves: function() {
+    console.log('Setting slaves state to unactive');
+    Slaves.update({ isRunning: true }, { $set: { isRunning: false }, $unset: { startedAt: '' } });
   }
 });
 
 Meteor.startup(function () {
-  Slaves.update({ isRunning: true }, { $set: { isRunning: false }, $unset: { startedAt: '' } });
+  Meteor.call('refreshSlaves');
   Meteor.defer(function() {
     while (Jobs.running) {
       try {

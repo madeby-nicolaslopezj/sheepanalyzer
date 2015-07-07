@@ -11,5 +11,6 @@ Jobs['fb:likes'] = function(slave) {
 
   console.log('Has ' + likes + ' likes')
 
-  return moment().add(1, 'day').toDate();
+  // Each day at 14:00:00
+  return moment().add(1, 'day').hour(14).minute(0).second(0).toDate();
 }

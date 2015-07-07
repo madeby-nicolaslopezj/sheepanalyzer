@@ -24,6 +24,7 @@ Jobs['fb:post-comments'] = function(slave) {
   console.log(comments.length + ' comments found');
 
   if (moment(new Date(slave.createdAt)).isAfter(moment().subtract(1, 'month'))) {
-    return moment().add(1, 'day').toDate();
+    // Each day at 15:00:00
+    return moment().add(1, 'day').hour(15).minute(0).second(0).toDate();
   }
 }

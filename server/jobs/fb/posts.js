@@ -29,5 +29,6 @@ Jobs['fb:posts'] = function(slave) {
 
   console.log(posts.length + ' posts found');
 
+  // Each 3 hours
   return moment().add(3, 'hour').toDate();
 }
