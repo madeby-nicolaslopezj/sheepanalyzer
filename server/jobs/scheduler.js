@@ -26,7 +26,6 @@ Meteor.methods({
     }
   },
   refreshJobs: function() {
-    console.log('Setting jobs state to unactive');
     Jobs.update({ isRunning: true }, { $set: { isRunning: false }, $unset: { startedAt: '' } });
   }
 });
@@ -34,7 +33,7 @@ Meteor.methods({
 Meteor.startup(function () {
   Meteor.call('refreshJobs');
   Meteor.defer(function() {
-    while (Jobs.running) {
+    while (process.env.RUN_JOBS) {
       try {
         Meteor.call('scheduleJob');
       } catch(e) {

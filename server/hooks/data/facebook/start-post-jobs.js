@@ -1,5 +1,5 @@
 /**
- * Starts the fb:posts slave
+ * Starts the fb:posts job
  */
 DataFBPosts.after.insert(function(userId, doc) {
 
@@ -7,8 +7,8 @@ DataFBPosts.after.insert(function(userId, doc) {
     return;
   }
 
-  console.log('Creating fb:post-likes slave for [', doc.id, ']');
-  var slave = {
+  console.log('Creating fb:post-likes job for [', doc.id, ']');
+  var job = {
     targetId: doc.targetId,
     type: 'fb:post-likes',
     data: {
@@ -16,11 +16,11 @@ DataFBPosts.after.insert(function(userId, doc) {
     }
   };
 
-  Slaves.insert(slave);
+  Jobs.insert(job);
 });
 
 /**
- * Starts the fb:posts slave
+ * Starts the fb:posts job
  */
 DataFBPosts.after.insert(function(userId, doc) {
 
@@ -28,8 +28,8 @@ DataFBPosts.after.insert(function(userId, doc) {
     return;
   }
 
-  console.log('Creating fb:post-comments slave for [', doc.id, ']');
-  var slave = {
+  console.log('Creating fb:post-comments job for [', doc.id, ']');
+  var job = {
     targetId: doc.targetId,
     type: 'fb:post-comments',
     data: {
@@ -37,5 +37,5 @@ DataFBPosts.after.insert(function(userId, doc) {
     }
   };
 
-  Slaves.insert(slave);
+  Jobs.insert(job);
 });

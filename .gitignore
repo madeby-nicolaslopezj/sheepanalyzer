@@ -1,4 +1,5 @@
-backup.txt
+init.txt
 mup.json
 settings.json
 .ssh
+lib/local.js

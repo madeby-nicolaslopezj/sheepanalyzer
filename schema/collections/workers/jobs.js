@@ -4,7 +4,7 @@ Jobs.attachSchema(new SimpleSchema({
   },
   type: {
     type: String,
-    allowedValues: JobTypes
+    allowedValues: JobTypes.types
   },
   data: {
     type: Object,

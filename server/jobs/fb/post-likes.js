@@ -1,4 +1,4 @@
-Jobs['fb:post-likes'] = function(job) {
+JobTypes['fb:post-likes'] = function(job) {
   var objectId = job.data.objectId;
 
   console.log('Fetching [', objectId, '] likes')

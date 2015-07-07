@@ -1,4 +1,4 @@
-Jobs['fb:post-comments'] = function(job) {
+JobTypes['fb:post-comments'] = function(job) {
   var objectId = job.data.objectId;
 
   console.log('Fetching [', objectId, '] comments')

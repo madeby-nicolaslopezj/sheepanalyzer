@@ -1,4 +1,4 @@
-Jobs['fb:posts'] = function(job) {
+JobTypes['fb:posts'] = function(job) {
   var objectId = job.data.objectId;
 
   console.log('Fetching [', objectId, '] posts')

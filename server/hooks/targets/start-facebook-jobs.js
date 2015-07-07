@@ -1,8 +1,8 @@
 /**
- * Starts the fb:likes slave
+ * Starts the fb:likes job
  */
 Targets.after.insert(function(userId, doc) {
-  var slave = {
+  var job = {
     targetId: doc._id,
     type: 'fb:likes',
     data: {
@@ -10,14 +10,14 @@ Targets.after.insert(function(userId, doc) {
     }
   };
 
-  Slaves.insert(slave);
+  Jobs.insert(job);
 });
 
 /**
- * Starts the fb:posts slave
+ * Starts the fb:posts job
  */
 Targets.after.insert(function(userId, doc) {
-  var slave = {
+  var job = {
     targetId: doc._id,
     type: 'fb:posts',
     data: {
@@ -25,5 +25,5 @@ Targets.after.insert(function(userId, doc) {
     }
   };
 
-  Slaves.insert(slave);
+  Jobs.insert(job);
 });

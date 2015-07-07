@@ -7,7 +7,7 @@ facebook = new GraphAPI({
 */
 
 FBGraph.init({
-  appId: orion.config.get('FACEBOOK_APPID'),
-  secret: orion.config.get('FACEBOOK_SECRET'),
+  appId: process.env.FACEBOOK_APPID,
+  secret: process.env.FACEBOOK_SECRET,
   version: 'v2.3'
 })
