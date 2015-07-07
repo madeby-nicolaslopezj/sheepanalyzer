@@ -13,7 +13,7 @@ Clients.attachSchema(new SimpleSchema({
     publicationName: 'clients_mainTarget',
     additionalFields: ['inCharge'],
     filter: function(userId) {
-      return { inCharge: userId };
+      return { $or: Roles.helper(userId, 'collections.clients.availableTargets') };
     }
   }),
   competitorsIds: orion.attribute('hasMany', {
@@ -24,7 +24,7 @@ Clients.attachSchema(new SimpleSchema({
     publicationName: 'clients_competitors',
     additionalFields: ['inCharge'],
     filter: function(userId) {
-      return { inCharge: userId };
+      return { $or: Roles.helper(userId, 'collections.clients.availableTargets') };
     }
   }),
   inCharge: orion.attribute('user', {

@@ -6,9 +6,11 @@
       </a>
     </p>
   {{/ each }}
+  {{# if hasPermission }}
   <p class="center">
     <a href="{{ pathFor 'clients.reports.create' }}" class="black-text">
       <i class="small material-icons">add</i>
     </a>
   </p>
+  {{/ if }}
 </template>

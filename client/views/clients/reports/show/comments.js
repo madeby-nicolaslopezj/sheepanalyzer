@@ -4,6 +4,10 @@ Template.clientsReportsShowComments.onRendered(function() {
 Template.clientsReportsShowComments.helpers({
   comments: function() {
     return this.report.comments && this.report.comments[this.item];
+  },
+  hasPermission: function() {
+    var report = Reports.findOne(Router.current().params._id);
+    return Roles.userHasPermission(Meteor.userId(), 'collections.reports.update', Meteor.userId(), report);
   }
 })
 

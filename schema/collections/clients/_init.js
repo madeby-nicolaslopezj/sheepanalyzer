@@ -17,3 +17,5 @@ Clients = new orion.collection('clients', {
     ]
   }
 });
+
+Roles.registerHelper('collections.clients.availableTargets', {});

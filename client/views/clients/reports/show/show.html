@@ -1,6 +1,13 @@
 <template name="clientsReportsShow">
   {{# with report }}
-    <h3 class="center red-text text-lighten-2">{{ targetName }}</h3>
+    {{# if hasPermission }}
+    <p class="right">
+      <i class="material-icons">lock</i>
+    </p>
+    {{/ if }}
+    <p class="center">
+      {{ createdAt }}
+    </p>
     {{# each selectedReports }}
       <br>
       <div class="">
@@ -20,9 +27,11 @@
           </div>
         </div>
       </div>
+      {{# if hasPermission }}
       <p>
         <a href="#" class="btn refresh-report-btn"><i class="material-icons">refresh</i></a>
       </p>
+      {{/ if }}
       <div class="divider"></div>
       <br>
     {{/ each }}

@@ -2,6 +2,7 @@ Template.clientsReportsShow.onCreated(function() {
   var self = this;
   self.autorun(function() {
     self.subscribe('reportsView', Router.current().params._id);
+    self.subscribe('clientBySlug', Router.current().params.slug);
   });
 });
 
@@ -21,6 +22,10 @@ Template.clientsReportsShow.helpers({
   getTitle: function() {
     var type = String(this);
     return ReportsItems.titles[type];
+  },
+  hasPermission: function() {
+    var report = Reports.findOne(Router.current().params._id);
+    return Roles.userHasPermission(Meteor.userId(), 'collections.reports.update', Meteor.userId(), report);
   }
 })
 

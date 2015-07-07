@@ -9,6 +9,7 @@
     </ul>
     <br>
   {{/ if }}
+  {{# if hasPermission }}
   <div class="input-field">
     <input type="text" id="comment-input" class="new-comment-input">
     <label for="comment-input">Comentario</label>
@@ -18,5 +19,5 @@
       <a href="#" class="new-comment-btn btn right"><i class="material-icons">comment</i></a>
     </p>
   </div>
-
+  {{/ if }}
 </template>

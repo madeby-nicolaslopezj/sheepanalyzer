@@ -37,6 +37,11 @@ Reports.attachSchema(new SimpleSchema({
     allowedValues: ReportsItems.types,
     min: 1
   },
+  isVisible: {
+    type: Boolean,
+    label: 'Visible',
+    defaultValue: false
+  },
   data: {
     type: Object,
     blackbox: true,

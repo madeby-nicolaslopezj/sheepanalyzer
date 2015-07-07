@@ -12,3 +12,6 @@ AnalistRole.allow('collections.clients.showRemove', true);
 AnalistRole.helper('collections.clients.indexFilter', function() {
   return { inCharge: this.userId };
 });
+AnalistRole.helper('collections.clients.availableTargets', function() {
+  return { inCharge: this.userId };
+});
