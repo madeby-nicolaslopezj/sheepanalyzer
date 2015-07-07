@@ -7,6 +7,7 @@ Template.adminStatus.onCreated(function() {
   this.subscribe('runningJobs');
   this.subscribe('pendingJobs');
   this.subscribe('totalJobs');
+  this.subscribe('lastestTweets');
 })
 
 Template.adminStatus.helpers({
@@ -22,5 +23,8 @@ Template.adminStatus.helpers({
   },
   format: function(json) {
     return JSON.stringify(json, null, 2);
+  },
+  tweets: function() {
+    return DataTwitterTweets.find({}, { sort: { created_at: -1 }, limit: 5 });
   }
 })
