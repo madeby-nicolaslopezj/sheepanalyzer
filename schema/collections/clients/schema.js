@@ -11,6 +11,10 @@ Clients.attachSchema(new SimpleSchema({
     collection: Targets,
     titleField: 'name',
     publicationName: 'clients_mainTarget',
+    additionalFields: ['inCharge'],
+    filter: function(userId) {
+      return { inCharge: userId };
+    }
   }),
   competitorsIds: orion.attribute('hasMany', {
     label: 'Competencia'
@@ -18,6 +22,16 @@ Clients.attachSchema(new SimpleSchema({
     collection: Targets,
     titleField: 'name',
     publicationName: 'clients_competitors',
+    additionalFields: ['inCharge'],
+    filter: function(userId) {
+      return { inCharge: userId };
+    }
+  }),
+  inCharge: orion.attribute('user', {
+    optional: true,
+    label: 'Encargado'
+  }, {
+    publicationName: 'clients_user_attribute'
   }),
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')

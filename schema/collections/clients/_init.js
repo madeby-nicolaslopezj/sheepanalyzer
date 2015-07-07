@@ -12,7 +12,8 @@ Clients = new orion.collection('clients', {
   tabular: {
     columns: [
       orion.attributeColumn('hasOne', 'mainTargetId', 'Cliente'),
-      { data: 'slug', title: 'ID' }
+      { data: 'slug', title: 'ID', tmpl: Meteor.isClient && Template.adminClientsTabularLink },
+      orion.attributeColumn('user', 'inCharge', 'Encargado')
     ]
   }
 });
