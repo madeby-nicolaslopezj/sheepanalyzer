@@ -1,5 +1,0 @@
-Meteor.methods({
-  testFacebook: function () {
-
-  }
-});

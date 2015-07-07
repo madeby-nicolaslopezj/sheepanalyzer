@@ -1,83 +1,51 @@
-var runTwitterDaemon = function() {
-  console.log('Loading twitter stream');
+var twitterConnection;
+Meteor.methods({
+  startTwitterDaemon: function(tracks) {
+    console.log('Loading twitter stream...');
 
-  var client = new Twitter({
-    consumer_key: process.env.TWITTER_CONSUMER_KEY,
-    consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-    access_token_key: process.env.TWITTER_ACCESSTOKEN,
-    access_token_secret: process.env.TWITTER_ACCESSTOKEN_SECRET,
-  });
+    var serverCount = process.env.CLUSTER_SERVER_COUNT || 1;
+    var serverIndex = process.env.CLUSTER_SERVER_INDEX || 0;
+    var totalTargets = tracks.length;
+    var limit = Math.ceil(totalTargets / serverCount);
+    var skip = limit * serverIndex;
 
-  var tracks = [];
+    var streamingTracks = _.pluck(_.first(_.rest(tracks, skip), limit), 'track');
 
-  Targets.find({}, { fields: { twitter: 1 } }).forEach(function(target) {
-    _.each(target.twitter.directMentions, function(username) {
-      tracks.push({ targetId: target._id, track: ('@' + username), regex: new RegExp('(' + '@' + username + ')', 'gi') });
-    })
+    console.log('Streaming ' + (streamingTracks.length) + ' keys. From ' + skip + ' to ' + (skip + streamingTracks.length) + ' from a total of ' + (tracks.length) + ' keys (max: 400 per server)');
 
-    var indirects = target.twitter.indirectMentions;
-    if (indirects) {
-      _.each(indirects, function(item) {
-        if (item && item.containingAlso) {
-          _.each(item.containingAlso, function(also) {
-            tracks.push({ targetId: target._id, track: (item.mention + ' ' + also), regex: new RegExp('(' + item.mention + ').*(' + also + ')|(' + also + ').*(' + item.mention + ')', 'gi') });
-          })
-        } else if (item) {
-          tracks.push({ targetId: target._id, track: item.mention, regex: new RegExp('(' + item.mention + ')', 'gi') });
+    twitterConnection && twitterConnection.stream.destroy();
+    TwitterClient.stream('statuses/filter', { track: streamingTracks.join(',') }, function(connection) {
+      twitterConnection = connection;
+
+      twitterConnection.on('data', function(tweet) {
+        var text = (tweet.retweeted_status && tweet.retweeted_status.text) || tweet.text;
+        _.each(tracks, function(track) {
+          if (text.match(track.regex)) {
+            tweet.targetId = track.targetId;
+          }
+        });
+
+        if (!tweet.targetId) {
+          return;
         }
+
+        if (tweet.lang && !_.contains(['en', 'es', 'und'], tweet.lang)) {
+          return;
+        }
+
+        DataTwitterTweets.insert(tweet);
       });
-    }
-  });
 
-  if (!tracks) return;
+      twitterConnection.on('error', function(error) {
+        console.log('Twitter stream error:', error);
+        console.log('Trying again in 5 seconds...');
+        Meteor._sleepForMs(5000);
+        Meteor.call('startTwitterDaemon', tracks);
+      });
 
-  var serverCount = process.env.CLUSTER_SERVER_COUNT || 1;
-  var serverIndex = process.env.CLUSTER_SERVER_INDEX || 0;
-  var totalTargets = tracks.length;
-  var limit = Math.ceil(totalTargets / serverCount);
-  var skip = limit * serverIndex;
-
-  var streamingTracks = _.pluck(_.first(_.rest(tracks, skip), limit), 'track');
-
-  console.log('Streaming ' + (streamingTracks.length) + ' keys. From ' + skip + ' to ' + (skip + streamingTracks.length) + ' from a total of ' + (tracks.length) + ' keys (max: 400 per server)');
-
-  client.stream('statuses/filter', { track: streamingTracks.join(','), /*language: 'es'*/ }, function(connection) {
-
-    connection.on('data', function(tweet) {
-      //console.log('Server:', (Number(process.env.CLUSTER_SERVER_INDEX) + 1), '/', process.env.CLUSTER_SERVER_COUNT);
-      var text = (tweet.retweeted_status && tweet.retweeted_status.text) || tweet.text;
-      _.each(tracks, function(track) {
-        if (text.match(track.regex)) {
-          tweet.targetId = track.targetId;
-        }
-      })
-
-      if (!tweet.targetId) {
-        //console.log('Tweet without target found:', text);
-        return;
-      }
-
-      if (tweet.lang && !_.contains(['en', 'es', 'und'], tweet.lang)) {
-        //console.log('Tweet in other lang:', text, tweet.lang);
-        return;
-      }
-
-      //console.log('Tweet passes:', text, tweet.lang);
-
-      DataTwitterTweets.insert(tweet);
     });
-
-    connection.on('error', function(error) {
-      console.log('Twitter stream error:', error);
-      console.log('Destroying connection...');
-      connection.stream.destroy();
-      console.log('Trying again in 5 seconds...');
-      Meteor._sleepForMs(5000);
-      runTwitterDaemon();
-    });
-
-  });
-}
+  }
+})
 
 Meteor.startup(function() {
 
@@ -85,5 +53,24 @@ Meteor.startup(function() {
     return;
   }
 
-  runTwitterDaemon();
+  var run = function(tracks) {
+    try {
+      Meteor.call('startTwitterDaemon', tracks);
+    } catch (e) {
+      console.log('Error starting twitter daemon', e);
+      Meteor._sleepForMs(2000);
+      run();
+    }
+  }
+  var tracks;
+  var tracksDidChange = function() {
+    var newTracks = Meteor.call('getTwitterTracks');
+    if (!_.isEqual(tracks, newTracks)) {
+      console.log('Starting twitter daemon...');
+      tracks = newTracks;
+      run(tracks);
+    }
+  }
+  var query = Targets.find({}, { fields: { twitter: 1 } });
+  var handle = query.observeChanges({ added: tracksDidChange, removed: tracksDidChange, changed: tracksDidChange });
 })
