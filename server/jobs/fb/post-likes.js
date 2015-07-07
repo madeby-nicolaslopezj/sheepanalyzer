@@ -27,7 +27,7 @@ JobTypes['fb:post-likes'] = function(job) {
   console.log(likes.length + ' likes found');
 
   if (moment(new Date(job.createdAt)).isAfter(moment().subtract(1, 'month'))) {
-    // Each day at 19:00:00
-    return moment().add(1, 'day').hour(17).minute(0).second(0).toDate();
+    // Each day at 12:00:00
+    return moment().add(1, 'day').hour(12).minute(0).second(0).toDate();
   }
 }

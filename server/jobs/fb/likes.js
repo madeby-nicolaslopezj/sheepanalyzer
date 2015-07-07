@@ -11,6 +11,6 @@ JobTypes['fb:likes'] = function(job) {
 
   console.log('Has ' + likes + ' likes')
 
-  // Each day at 14:00:00
-  return moment().add(1, 'day').hour(14).minute(0).second(0).toDate();
+  // Each day at 12:00:00
+  return moment().add(1, 'day').hour(11).minute(0).second(0).toDate();
 }

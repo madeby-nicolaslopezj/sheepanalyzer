@@ -18,11 +18,11 @@ var runTwitterDaemon = function() {
     var indirects = target.twitter.indirectMentions;
     if (indirects) {
       _.each(indirects, function(item) {
-        if (item.containingAlso) {
+        if (item && item.containingAlso) {
           _.each(item.containingAlso, function(also) {
             tracks.push({ targetId: target._id, track: (item.mention + ' ' + also), regex: new RegExp('(' + item.mention + ').*(' + also + ')|(' + also + ').*(' + item.mention + ')', 'gi') });
           })
-        } else {
+        } else if (item) {
           tracks.push({ targetId: target._id, track: item.mention, regex: new RegExp('(' + item.mention + ')', 'gi') });
         }
       });
