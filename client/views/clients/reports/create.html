@@ -1,22 +1,39 @@
 <template name="clientsReportsCreate">
 
-  <h5>Generar reporte</h5>
+  <h5>Generar reporte</h5><br>
 
-  <p>
-    Elegir datos
-  </p>
-
-  {{# each types }}
-    <p>
-      <input type="checkbox" id="type-{{ this }}" value="{{ this }}" checked="checked"/>
-      <label for="type-{{ this }}">{{ label }}</label>
+  {{# autoForm collection="Reports" id="createReportsForm" type="insert" }}
+    <p class="red-text">
+      Falta clientId: this._id
     </p>
-  {{/ each }}
 
-  <br>
-  <p>
-    <a href="{{ pathFor 'clients.reports.index' }}" class="btn red">Cancelar</a>
-    <a href="#" class="btn blue btn-create">Crear</a>
-  </p>
+
+    {{> afQuickField name="selectedReports" }}
+    <br>
+
+    <p>
+      Duración
+    </p>
+    <div class="row">
+      <div class="col s12 m6">
+        {{> afQuickField name="startDate" }}
+      </div>
+      <div class="col s12 m6">
+        {{> afQuickField name="endDate" }}
+      </div>
+    </div>
+
+    <p>
+      Dividir en
+    </p>
+    {{> afQuickField name="divideBy" }}
+
+    <br>
+    <p>
+      <a href="{{ pathFor 'clients.reports.index' }}" class="btn red">Cancelar</a>
+      <button class="btn blue">Crear</button>
+    </p>
+
+  {{/ autoForm }}
 
 </template>

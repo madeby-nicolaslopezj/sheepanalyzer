@@ -35,7 +35,11 @@ Reports.attachSchema(new SimpleSchema({
     type: [String],
     label: 'Reportes',
     allowedValues: ReportsItems.types,
-    min: 1
+    min: 1,
+    autoform: {
+      noselect: true,
+      options: ReportsItems.titles
+    }
   },
   isVisible: {
     type: Boolean,
@@ -51,6 +55,34 @@ Reports.attachSchema(new SimpleSchema({
     type: Object,
     blackbox: true,
     optional: true
+  },
+  startDate: {
+    type: Date,
+    label: 'Desde',
+    autoform: {
+      type: 'pickadate',
+      timezoneId: 'America/Santiago'
+    }
+  },
+  endDate: {
+    type: Date,
+    label: 'Hasta',
+    autoform: {
+      type: 'pickadate',
+      timezoneId: 'America/Santiago'
+    }
+  },
+  divideBy: {
+    type: String,
+    allowedValues: ['day', 'week', 'month'],
+    autoform: {
+      noselect: true,
+      options: {
+        day: 'Día',
+        week: 'Semana',
+        month: 'Mes'
+      }
+    }
   },
   createdBy: orion.attribute('createdBy'),
   createdAt: orion.attribute('createdAt')
