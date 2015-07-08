@@ -60,16 +60,14 @@ Reports.attachSchema(new SimpleSchema({
     type: Date,
     label: 'Desde',
     autoform: {
-      type: 'pickadate',
-      timezoneId: 'America/Santiago'
+      type: 'pickadate'
     }
   },
   endDate: {
     type: Date,
     label: 'Hasta',
     autoform: {
-      type: 'pickadate',
-      timezoneId: 'America/Santiago'
+      type: 'pickadate'
     }
   },
   divideBy: {
