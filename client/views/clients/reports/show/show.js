@@ -36,5 +36,15 @@ Template.clientsReportsShow.events({
     $unset['data.' + type] = '';
     Reports.update(Router.current().params._id, { $unset: $unset });
     Meteor.call('collectReportData', Router.current().params._id, type);
+  },
+  'click .download-data-btn': function(event, template) {
+    var type = String(this);
+    var reportId = Router.current().params._id;
+    ReportDataDownloadRequest.insert({ reportId: reportId, dataType: type }, function(error, result) {
+      if (!error) {
+        var redirectWindow = window.open('/report-data/' + result, '_blank');
+        redirectWindow.location;
+      }
+    })
   }
 })

@@ -10,3 +10,4 @@ AnalistRole.allow('collections.reports.remove', function(userId, doc) {
   var client = Clients.findOne(doc.clientId);
   return client.inCharge == userId;
 });
+AnalistRole.allow('collections.reports.downloadData', true);

@@ -10,4 +10,4 @@ FBGraph.init({
   appId: process.env.FACEBOOK_APPID,
   secret: process.env.FACEBOOK_SECRET,
   version: 'v2.3'
-})
+});
