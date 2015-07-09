@@ -1,12 +1,8 @@
 <template name="clientsReportsCreate">
-
   <h5>Generar reporte</h5><br>
 
   {{# autoForm collection="Reports" id="createReportsForm" type="insert" }}
-    <p class="red-text">
-      Falta clientId: this._id
-    </p>
-
+    {{> afQuickField name="clientId" value=_id type="hidden" }}
 
     {{> afQuickField name="selectedReports" }}
     <br>
@@ -33,7 +29,5 @@
       <a href="{{ pathFor 'clients.reports.index' }}" class="btn red">Cancelar</a>
       <button class="btn blue">Crear</button>
     </p>
-
   {{/ autoForm }}
-
 </template>

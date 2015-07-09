@@ -4,8 +4,9 @@ Router.route('/admin/status', {
 })
 
 if (Meteor.isClient) {
-  orion.addLink({
-    section: 'top',
+  orion.links.add({
+    index: 1,
+    identifier: 'status',
     title: 'Status',
     routeName: 'admin.status',
     activeRouteRegex: 'admin.status',
