@@ -44,7 +44,8 @@ var twitterSchema = new SimpleSchema({
   directMentions: {
     type: [String],
     optional: true,
-    label: 'Cuentas'
+    label: 'Cuentas',
+    regEx: /^(\w){1,15}$/
   },
   indirectMentions: {
     type: [indirectMentionSchema],

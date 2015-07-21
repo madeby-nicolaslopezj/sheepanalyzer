@@ -7,7 +7,7 @@ Clients = new orion.collection('clients', {
   pluralName: 'clientes',
   title: 'Clientes',
   link: {
-    title: 'Clientes'
+    title: 'Clientes',
   },
   tabular: {
     columns: [

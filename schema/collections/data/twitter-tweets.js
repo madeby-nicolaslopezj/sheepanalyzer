@@ -127,5 +127,9 @@ DataTwitterTweets.attachSchema(new SimpleSchema({
   user: {
     type: TwitterUserSchema,
     optional: true
+  },
+  server: {
+    type: String,
+    optional: true
   }
 }));

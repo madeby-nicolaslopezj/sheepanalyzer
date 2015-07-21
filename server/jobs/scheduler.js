@@ -33,7 +33,7 @@ Meteor.methods({
 Meteor.startup(function () {
   Meteor.call('refreshJobs');
   Meteor.defer(function() {
-    while (process.env.RUN_JOBS) {
+    while (process.env.RUN_JOBS == 'true') {
       try {
         Meteor.call('scheduleJob');
       } catch(e) {

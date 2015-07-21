@@ -1,6 +1,10 @@
 var twitterConnection;
 Meteor.methods({
   startTwitterDaemon: function(tracks) {
+    if (process.env.FETCH_TWITTER == 'false') {
+      return;
+    }
+
     console.log('Loading twitter stream...');
 
     var serverCount = process.env.CLUSTER_SERVER_COUNT || 1;
@@ -33,7 +37,13 @@ Meteor.methods({
           return;
         }
 
-        DataTwitterTweets.insert(tweet);
+        tweet.server = serverIndex;
+
+        try {
+          DataTwitterTweets.insert(tweet);
+        } catch (e) {
+          console.log('Error inserting tweet', e);
+        }
       });
 
       twitterConnection.on('error', function(error) {
@@ -48,8 +58,7 @@ Meteor.methods({
 })
 
 Meteor.startup(function() {
-
-  if (!process.env.FETCH_TWITTER) {
+  if (process.env.FETCH_TWITTER == 'false') {
     return;
   }
 
@@ -73,4 +82,22 @@ Meteor.startup(function() {
   }
   var query = Targets.find({}, { fields: { twitter: 1 } });
   var handle = query.observeChanges({ added: tracksDidChange, removed: tracksDidChange, changed: tracksDidChange });
-})
+
+  /**
+   * Evaluate health
+   */
+  Meteor.setInterval(function() {
+    try {
+      var serverIndex = process.env.CLUSTER_SERVER_INDEX || 0;
+      // One minute without tweets
+      var count = DataTwitterTweets.find({ server: serverIndex, created_at: { $gte: moment().subtract(1, 'minutes').toDate() } }).count();
+      if (count == 0) {
+        console.log('Twitter is down!');
+        console.log('Restarting server');
+        process.exit();
+      }
+    } catch (e) {
+      console.log('Error evaluating twitter health', e);
+    }
+  }, 30000);
+});
