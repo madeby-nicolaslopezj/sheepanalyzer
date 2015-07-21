@@ -13,4 +13,9 @@ Meteor.startup(function() {
     name: 'clients.reports.show',
     layoutTemplate: 'clientsLayout'
   })
+
+  Router.route('/:slug/alertas', {
+    name: 'clients.alerts.show',
+    layoutTemplate: 'clientsLayout'
+  })
 })

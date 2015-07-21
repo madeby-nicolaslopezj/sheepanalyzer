@@ -11,5 +11,5 @@ Meteor.publish('totalJobs', function() {
 });
 
 Meteor.publish('lastestTweets', function() {
-  return DataTwitterTweets.find({}, { sort: { created_at: -1 }, limit: 5, fields: { 'user.screen_name': 1, text: 1, created_at: 1 } });
+  return DataTwitterTweets.find({}, { sort: { created_at: -1 }, limit: 5, fields: { 'user.screen_name': 1, text: 1, created_at: 1, id_str: 1 } });
 });

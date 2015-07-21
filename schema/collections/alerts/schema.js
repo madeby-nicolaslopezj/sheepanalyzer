@@ -1,6 +1,7 @@
 Alerts.attachSchema(new SimpleSchema({
   targetId: orion.attribute('hasOne', {
-    label: 'Target Principal'
+    label: 'Target Principal',
+    unique: true
   }, {
     collection: Targets,
     titleField: 'name',

@@ -3,10 +3,22 @@ DataTwitterTweets.after.insert(function(userId, doc) {
   if (!alert) {
     return;
   }
+  var target = Targets.findOne({ _id: alert.targetId });
 
   _.each(alert.importantTwitterAccounts, function(importantAccount) {
     if (importantAccount.toUpperCase() == doc.user.screen_name.toUpperCase()) {
-      console.log('SEND EMAIL TO LEVEL 1');
+
+      var message = doc.user.screen_name + ' just said\n\n';
+      message += doc.text + '\n\n';
+
+      _.each(alert.level1Emails, function(recipent) {
+        Email.send({
+          to: recipent,
+          from: 'sheepanalyzer@me.com',
+          subject: doc.user.screen_name + ' is talking about ' + target.name,
+          text: message
+        });
+      });
     }
   });
 

@@ -71,7 +71,7 @@ Meteor.startup(function() {
       run();
     }
   }
-  var tracks;
+  var tracks = [];
   var tracksDidChange = function() {
     var newTracks = Meteor.call('getTwitterTracks');
     if (!_.isEqual(tracks, newTracks)) {
@@ -87,13 +87,16 @@ Meteor.startup(function() {
    * Evaluate health
    */
   Meteor.setInterval(function() {
+    if (tracks.length < 8) { return; }
     try {
       var serverIndex = process.env.CLUSTER_SERVER_INDEX || 0;
       // One minute without tweets
-      var count = DataTwitterTweets.find({ server: serverIndex, created_at: { $gte: moment().subtract(1, 'minutes').toDate() } }).count();
+      var count = DataTwitterTweets.find({ server: serverIndex, created_at: { $gte: moment().subtract(2, 'minutes').toDate() } }).count();
       if (count == 0) {
         console.log('Twitter is down!');
-        console.log('Restarting server');
+        console.log('Restarting server in 20 seconds');
+        Meteor._sleepForMs(20000);
+        console.log('Restarting server...');
         process.exit();
       }
     } catch (e) {

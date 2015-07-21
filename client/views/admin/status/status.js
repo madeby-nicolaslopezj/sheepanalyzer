@@ -25,6 +25,6 @@ Template.adminStatus.helpers({
     return JSON.stringify(json, null, 2);
   },
   tweets: function() {
-    return DataTwitterTweets.find({}, { sort: { created_at: -1 }, limit: 5 });
+    return DataTwitterTweets.find({}, { sort: { id_str: -1 }, limit: 5 });
   }
 })

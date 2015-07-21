@@ -1,0 +1,29 @@
+<template name="clientsAlertsShow">
+  <div class="row">
+    <div class="col s10 offset-s1">
+      {{# with alert }}
+        <p>
+          {{# if status }}
+            <span class="right red-text">
+              <b>Alerta nivel {{ status }}</b>
+            </span>
+          {{/ if }}
+          <b>{{ rate }}</b> tweets en los últimos 5 minutos
+        </p>
+        <br>
+        {{# each tweets }}
+          <p>
+            <b>@{{ user.screen_name }}</b>
+          </p>
+          <p>
+            {{ text }}
+          </p>
+          <p class="grey-text">
+            {{ livestamp created_at }}
+          </p>
+          <div class="divider"></div>
+        {{/ each }}
+    {{/ with }}
+  </div>
+</div>
+</template>

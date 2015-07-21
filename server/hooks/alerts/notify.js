@@ -2,6 +2,7 @@ Alerts.after.update(function(userId, doc, fieldNames, modifier, options) {
   if (!_.contains(fieldNames, 'status')) return;
   var up = this.previous.status < doc.status;
   var target = Targets.findOne(doc.targetId);
+  var client = Clients.findOne({ mainTargetId: target._id });
   var recipents = [];
   var message = '';
 
@@ -23,6 +24,11 @@ Alerts.after.update(function(userId, doc, fieldNames, modifier, options) {
     } else if (doc.status == 0) {
       // went down to level 0
     }
+  }
+
+  if (client) {
+    message+= '\n\nCheck more information in the following link:\n';
+    message+= Router.url('clients.alerts.show', client);
   }
 
   _.each(recipents, function(recipent) {
