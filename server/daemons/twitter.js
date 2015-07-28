@@ -90,8 +90,8 @@ Meteor.startup(function() {
     if (tracks.length < 8) { return; }
     try {
       var serverIndex = process.env.CLUSTER_SERVER_INDEX || 0;
-      // One minute without tweets
-      var count = DataTwitterTweets.find({ server: serverIndex, created_at: { $gte: moment().subtract(2, 'minutes').toDate() } }).count();
+      // 5 minutes without tweets
+      var count = DataTwitterTweets.find({ server: serverIndex, created_at: { $gte: moment().subtract(5, 'minutes').toDate() } }).count();
       if (count == 0) {
         console.log('Twitter is down!');
         console.log('Restarting server in 20 seconds');

@@ -1,0 +1,32 @@
+<template name="reportsData_fb:active-users">
+  <table class="bordered">
+    <thead>
+      <tr>
+        <th>
+          User
+        </th>
+        <th>
+          Comments
+        </th>
+        <th>
+          Likes
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {{# each this }}
+        <tr>
+          <td>
+            <a href="http://facebook.com/{{ _id }}" target="_blank">{{ _id }}</a>
+          </td>
+          <td>
+            {{ comments }}
+          </td>
+          <td>
+            {{ likes }}
+          </td>
+        </tr>
+      {{/ each }}
+    </tbody>
+  </table>
+</template>

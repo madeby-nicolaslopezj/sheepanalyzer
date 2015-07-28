@@ -1,0 +1,32 @@
+<template name="reportsData_fb:best-comments">
+  <table class="bordered">
+    <thead>
+      <tr>
+        <th>
+          Likes
+        </th>
+        <th>
+          Message
+        </th>
+        <th>
+          Link
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {{# each this }}
+        <tr>
+          <td>
+            {{ like_count }}
+          </td>
+          <td>
+            {{ message }}
+          </td>
+          <td>
+            <a href="http://facebook.com/{{ id }}" target="_blank">Ver</a>
+          </td>
+        </tr>
+      {{/ each }}
+    </tbody>
+  </table>
+</template>
