@@ -4,7 +4,6 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
   var fromDate = moment.unix(this.params.fromDate);
   var toDate = moment.unix(this.params.toDate);
   var dateFilter = { $gte: fromDate.toDate(), $lte: toDate.toDate() };
-  var csv = '';
   var title = '';
 
   if (this.params.data == 'tw-tweets') {
@@ -19,7 +18,6 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       { key: 'user.followers_count', title: 'Seguidores' }
     ];
     title = target.name + ' - Tweets';
-    csv = exportToCSV(title, fields, data);
   }
   if (this.params.data == 'fb-likes') {
     var data = DataFBLikes.find({ date: dateFilter, targetId: target._id }).fetch();
@@ -28,7 +26,6 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       { key: 'likes', title: 'Likes' }
     ];
     title = target.name + ' - Historial de likes';
-    csv = exportToCSV(title, fields, data);
   }
   if (this.params.data == 'fb-posts') {
     var data = DataFBPosts.find({ created_time: dateFilter, targetId: target._id }).fetch();
@@ -57,7 +54,6 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       }
     ];
     title = target.name + ' - Historial de likes'
-    csv = exportToCSV(title, fields, data);
   }
   if (this.params.data == 'fb-posts-likes') {
     var data = DataFBPostLikes.find({ date: dateFilter, targetId: target._id }).fetch();
@@ -67,7 +63,6 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       { key: 'date', title: 'Fecha' }
     ];
     title = target.name + ' - Posts likes'
-    csv = exportToCSV(title, fields, data);
   }
   if (this.params.data == 'fb-posts-comments') {
     var data = DataFBPostComments.find({ created_time: dateFilter, targetId: target._id }).fetch();
@@ -80,14 +75,15 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
       { key: 'message', title: 'Mensaje' }
     ];
     title = target.name + ' - Posts likes'
-    csv = exportToCSV(title, fields, data);
   }
+
+  csv = exportToCSV(title, fields, data);
 
   var headers = {
     'Content-type': 'text/csv; charset=utf-8',
     'Content-Disposition': 'attachment; filename=' + title + '.csv'
   };
-  console.log(this);
+
   this.response.writeHead(200, headers);
   this.response.end(csv);
 }, { where: 'server' });
