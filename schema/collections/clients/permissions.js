@@ -1,4 +1,6 @@
-AnalistRole.allow('collections.clients.index', true);
+Roles._adminRole.deny('collections.clients.index', true);
+
+AnalistRole.allow('collections.clients.index', false);
 AnalistRole.allow('collections.clients.insert', true);
 AnalistRole.allow('collections.clients.update', function(userId, doc) {
   return doc.inCharge == userId

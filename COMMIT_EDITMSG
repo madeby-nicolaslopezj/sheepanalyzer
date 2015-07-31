@@ -1,0 +1,16 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+# Changes to be committed:
+# 
+# 	modified:   .meteor/versions
+# 	new file:   client/views/admin/targets/data.html
+# 	new file:   client/views/admin/targets/data.js
+# 	modified:   lib/collections.js
+# 	modified:   lib/csv.js
+# 	modified:   routes/admin.js
+# 	modified:   schema/collections/clients/permissions.js
+# 	new file:   server/download/download.js

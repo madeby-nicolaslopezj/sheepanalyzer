@@ -1,0 +1,44 @@
+<template name="adminTargetsData">
+  {{# Layout template="orionMaterializeHeaderContainer" }}
+    Descargar Datos
+  {{/ Layout }}
+  {{# Layout template="orionMaterializeContentContainer" }}
+    <p>
+      <b>Fechas</b>
+    </p>
+
+    <div class="row">
+      <div class="col s6">
+        <label class="active">Desde</label>
+        <input type="date" class="datepicker date-from">
+      </div>
+      <div class="col s6">
+        <label class="active">Hasta</label>
+        <input type="date" class="datepicker date-to">
+      </div>
+    </div>
+
+    <p>
+      <b>Twitter</b>
+    </p>
+
+    <p>
+      <button class="blue btn waves-effect waves-light download-btn" data-type="tw-tweets">Tweets</button>
+    </p>
+
+    <p>
+      <b>Facebook</b>
+    </p>
+
+    <p>
+      <button class="blue btn waves-effect waves-light download-btn" data-type="fb-likes">Likes</button>
+      <button class="blue btn waves-effect waves-light download-btn" data-type="fb-posts">Posts</button>
+      <button class="blue btn waves-effect waves-light download-btn" data-type="fb-posts-likes">Posts Likes</button>
+      <button class="blue btn waves-effect waves-light download-btn" data-type="fb-posts-comments">Posts Comments</button>
+    </p>
+
+  {{/ Layout }}
+  {{# Layout template="orionMaterializeButtonsContainer" }}
+    <a href="{{ pathFor 'collections.targets.index' }}" class="waves-effect waves-light btn">{{ i18n 'global.back' }}</a>
+  {{/ Layout }}
+</template>
