@@ -77,13 +77,13 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
     title = target.name + ' - Posts likes'
   }
 
-  csv = exportToCSV(title, fields, data);
+  file = exportToExcel(title, fields, data);
 
   var headers = {
-    'Content-type': 'text/csv; charset=utf-8',
-    'Content-Disposition': 'attachment; filename=' + title + '.csv'
+    'Content-type': 'application/vnd.openxmlformats',
+    'Content-Disposition': 'attachment; filename=' + title + '.xlsx'
   };
 
   this.response.writeHead(200, headers);
-  this.response.end(csv);
+  this.response.end(file, 'binary');
 }, { where: 'server' });

@@ -5,6 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
+npm
 materialize:materialize
 nicolaslopezj:fb-graph
 orionjs:core
@@ -26,4 +27,3 @@ jparker:crypto-base64
 copleykj:livestamp
 benan789:autoform-materialize-tagsinput
 email
-netanelgilad:excel

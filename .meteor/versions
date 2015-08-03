@@ -64,13 +64,13 @@ mobile-status-bar@1.0.3
 momentjs:moment@2.10.3
 mongo@1.1.0
 mongo-livedata@1.0.8
-netanelgilad:excel@0.2.4
 new3rs:twitter@0.0.3
 nicolaslopezj:fb-graph@1.0.1
 nicolaslopezj:options@1.0.1
 nicolaslopezj:reactive-templates@1.2.1
 nicolaslopezj:roles@1.1.2
 nicolaslopezj:tabular-materialize@1.2.1
+npm@1.0.0
 npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
 ordered-dict@1.0.3
