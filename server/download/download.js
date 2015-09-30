@@ -5,10 +5,12 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
   var toDate = moment.unix(this.params.toDate);
   var dateFilter = { $gte: fromDate.toDate(), $lte: toDate.toDate() };
   var title = '';
+  var data = null;
+  var fields = null;
 
   if (this.params.data == 'tw-tweets') {
-    var data = DataTwitterTweets.find({ created_at: dateFilter, targetId: target._id }).fetch();
-    var fields = [
+    data = DataTwitterTweets.find({ created_at: dateFilter, targetId: target._id }).fetch();
+    fields = [
       { key: 'id_str', title: 'ID' },
       { key: 'text', title: 'Contenido' },
       { key: 'created_at', title: 'Fecha' },
@@ -20,16 +22,16 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
     title = target.name + ' - Tweets';
   }
   if (this.params.data == 'fb-likes') {
-    var data = DataFBLikes.find({ date: dateFilter, targetId: target._id }).fetch();
-    var fields = [
+    data = DataFBLikes.find({ date: dateFilter, targetId: target._id }).fetch();
+    fields = [
       { key: 'date', title: 'Fecha' },
       { key: 'likes', title: 'Likes' }
     ];
     title = target.name + ' - Historial de likes';
   }
   if (this.params.data == 'fb-posts') {
-    var data = DataFBPosts.find({ created_time: dateFilter, targetId: target._id }).fetch();
-    var fields = [
+    data = DataFBPosts.find({ created_time: dateFilter, targetId: target._id }).fetch();
+    fields = [
       { key: 'id', title: 'ID' },
       { key: 'from.id', title: 'User ID' },
       { key: 'message', title: 'Mensaje' },
@@ -41,7 +43,7 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
         key: 'id',
         title: 'Likes',
         transform: function(id) {
-          return DataFBPostLikes.find({ targetId: target._id, postId: id }).count()
+          return DataFBPostLikes.find({ targetId: target._id, postId: id }).count();
         }
       },
       {
@@ -49,32 +51,32 @@ Router.route('/download-data/:targetId/:data/:fromDate/:toDate', function() {
         title: 'Comentarios',
         transform: function(id) {
           var regex = new RegExp('^' + id + '_.*$', 'm');
-          return DataFBPostComments.find({ targetId: target._id, id: { $regex: regex } }).count()
+          return DataFBPostComments.find({ targetId: target._id, id: { $regex: regex } }).count();
         }
       }
     ];
-    title = target.name + ' - Historial de likes'
+    title = target.name + ' - Historial de likes';
   }
   if (this.params.data == 'fb-posts-likes') {
-    var data = DataFBPostLikes.find({ date: dateFilter, targetId: target._id }).fetch();
-    var fields = [
+    data = DataFBPostLikes.find({ date: dateFilter, targetId: target._id }).fetch();
+    fields = [
       { key: 'postId', title: 'Post ID' },
       { key: 'userId', title: 'User ID' },
       { key: 'date', title: 'Fecha' }
     ];
-    title = target.name + ' - Posts likes'
+    title = target.name + ' - Posts likes';
   }
   if (this.params.data == 'fb-posts-comments') {
-    var data = DataFBPostComments.find({ created_time: dateFilter, targetId: target._id }).fetch();
-    var fields = [
+    data = DataFBPostComments.find({ created_time: dateFilter, targetId: target._id }).fetch();
+    fields = [
       { key: 'id', title: 'Comment ID' },
-      { key: 'id', title: 'Post ID', transform: function(val) { return val.split('_')[0] } },
+      { key: 'id', title: 'Post ID', transform: function(val) { return val.split('_')[0]; } },
       { key: 'from.id', title: 'User ID' },
-      { key: 'like_count', title: 'Likes' },
+      { key: 'like_count', title: 'Likes', transform: function(val) { return Number(val); } },
       { key: 'created_time', title: 'Fecha' },
       { key: 'message', title: 'Mensaje' }
     ];
-    title = target.name + ' - Posts likes'
+    title = target.name + ' - Posts likes';
   }
 
   file = exportToExcel(title, fields, data);
